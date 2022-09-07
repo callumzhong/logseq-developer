@@ -223,7 +223,7 @@
 
  ;; Enable all your properties to have corresponding pages
  :property-pages/enabled? true
- :journal/page-title-format "yyyy/MM/dd"
+ :journal/page-title-format "MMM do, yyyy"
  :graph/settings {:orphan-pages? true, :journal? false}
 
  ;; Properties to exclude from having property pages
