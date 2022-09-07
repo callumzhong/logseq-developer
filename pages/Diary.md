@@ -1,3 +1,3 @@
-filters:: {"type" true}
+filters:: {}
 
 -
