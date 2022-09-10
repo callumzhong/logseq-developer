@@ -1,1 +1,14 @@
-- 薪水 50,000
+- >@@html: <iframe width="560" height="315" src="https://www.youtube.com/embed/vx2u5uUu3DE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>@@
+-
+-
+- TODO 月薪 50,000 ↑
+- TODO 道路駕駛 ( 學會開車 )
+- TODO 住有生活品質的空間 (3餐自己做健康餐)
+- TODO 製作切版影集
+- TODO 完成習慣養成 (時間分配, 運動, 紀錄)
+- TODO 前往日本帶回狐狸雕像
+- TODO 英文會話程度達到可溝通
+- TODO 資產 500,000
+- TODO  資產 1,000,000
+- TODO 手術除痣
+-
