@@ -36,7 +36,7 @@
   :block/updated-at 1661538426559}
  {:block/name "it's my life",
   :block/created-at 1662795116359,
-  :block/updated-at 1662795764025}
+  :block/updated-at 1662805649586}
  {:block/name "later",
   :block/created-at 1661538426559,
   :block/updated-at 1661538426559}
@@ -60,7 +60,7 @@
   :block/updated-at 1662795116360}
  {:block/name "sep 9th, 2022",
   :block/created-at 1662653598827,
-  :block/updated-at 1662795246255}
+  :block/updated-at 1662805528143}
  {:block/name "todo",
   :block/created-at 1662695819949,
   :block/updated-at 1662695819949}
