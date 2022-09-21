@@ -9,7 +9,7 @@
  ;; Preferred workflow style.
  ;; Value is either ":now" for NOW/LATER style,
  ;; or ":todo" for TODO/DOING style.
- :preferred-workflow :now
+ :preferred-workflow :todo
 
  ;; The app will ignore those directories or files.
  ;; E.g. :hidden ["/archived" "/test.md" "../assets/archived"]
@@ -209,7 +209,7 @@
 
  :ref/linked-references-collapsed-threshold 50
 
- :favorites ["How to take dummy notes?"]
+ :favorites ["FOREST" "It's My Life" "How to take dummy notes?"]
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5
@@ -223,7 +223,8 @@
 
  ;; Enable all your properties to have corresponding pages
  :property-pages/enabled? true
- :mobile/toolbar-stats {:bold {:counts 3}, :brand-youtube {:counts 0}, :checkbox {:counts 0}, :parentheses {:counts 0}, :command {:counts 0}, :calendar {:counts 0}, :paint {:counts 0}, :list {:counts 0}, :link {:counts 0}, :strikethrough {:counts 0}, :code {:counts 0}, :camera {:counts 0}, :rotate {:counts 0}, :tag {:counts 0}, :brackets {:counts 12}, :italic {:counts 0}, :a-b {:counts 0}, :rotate-clockwise {:counts 0}}
+ :journal/page-title-format "MMM do, yyyy"
+ :graph/settings {:orphan-pages? true, :journal? false}
 
  ;; Properties to exclude from having property pages
  ;; E.g.:property-pages/excludelist #{:duration :author}
