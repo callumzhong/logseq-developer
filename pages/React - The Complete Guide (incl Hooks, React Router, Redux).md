@@ -20,4 +20,7 @@
 		- map 運用
 - Section 3 : React Basics & Working With Components
 	- What Are Component? And Why Is React All About Them?
+		- React 用於構建使用者介面，以 UI 設計來說通常具有數個相同結構的視覺模型，對於程式設計可稱為組件，當
 		-
+		- [Thinking in React (reactjs.org)](https://beta.reactjs.org/learn/thinking-in-react)
+-
