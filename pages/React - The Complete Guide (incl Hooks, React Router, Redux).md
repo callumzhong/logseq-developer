@@ -4,7 +4,13 @@
   tags:: #course #programming #[[frontend development]]
 - Section 2 : JavaScript Refrescher
 	- Understanding "let" and "const" #javascript/variable
+	  collapsed:: true
 		- ```js
 		  const test = 'A'
 		  ```
 	- Arrow Functions 箭頭函式 #javascript/function
+	- Exports and Imports #javascript/module
+	- Understanding Classes #javascript/class
+	- Classes, Properties and Methods #javascript/class
+	- The Spread & Rest Operator #javascript/syntax
+	-

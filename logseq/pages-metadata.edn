@@ -43,6 +43,9 @@
  {:block/name "favorites",
   :block/created-at 1661538426559,
   :block/updated-at 1661538426559}
+ {:block/name "frontend development",
+  :block/created-at 1665781814365,
+  :block/updated-at 1665781814365}
  {:block/name "git 指令",
   :block/created-at 1665745412295,
   :block/updated-at 1665746152454}
@@ -58,12 +61,27 @@
  {:block/name "in-progress",
   :block/created-at 1661538426559,
   :block/updated-at 1661538426559}
+ {:block/name "javascript",
+  :block/created-at 1665782008833,
+  :block/updated-at 1665782008833}
+ {:block/name "javascript/function",
+  :block/created-at 1665782082568,
+  :block/updated-at 1665782082568}
+ {:block/name "javascript/module",
+  :block/created-at 1665782176487,
+  :block/updated-at 1665782176487}
+ {:block/name "javascript/variable",
+  :block/created-at 1665782011373,
+  :block/updated-at 1665782011373}
  {:block/name "language",
   :block/created-at 1665751847062,
   :block/updated-at 1665751847062}
  {:block/name "later",
   :block/created-at 1661538426559,
   :block/updated-at 1661538426559}
+ {:block/name "maximilian schwarzmiiller",
+  :block/created-at 1665781589542,
+  :block/updated-at 1665781589542}
  {:block/name "node.js",
   :block/created-at 1665752029866,
   :block/updated-at 1665753004990}
@@ -79,15 +97,16 @@
  {:block/name "react",
   :block/created-at 1665751704312,
   :block/updated-at 1665752197122}
+ {:block/name
+  "react - the complete guide (incl hooks, react router, redux)",
+  :block/created-at 1665781519053,
+  :block/updated-at 1665782176491}
  {:block/name "react docs",
   :block/created-at 1665709504251,
   :block/updated-at 1665748437371}
  {:block/name "software development",
   :block/created-at 1665779222753,
   :block/updated-at 1665779222753}
- {:block/name "test",
-  :block/created-at 1665780549035,
-  :block/updated-at 1665780631821}
  {:block/name "todd mcleod",
   :block/created-at 1665779046622,
   :block/updated-at 1665779046622}
