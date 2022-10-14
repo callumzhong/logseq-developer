@@ -53,4 +53,4 @@
 - ## React 思考
 	- 前提摘要我們得知 React 使用宣告式設計 view ，這將改變你對設計應用程式的看法
 	- ![image.png](../assets/image_1665712240492_0.png)
-	-
+	- 框線表示 HTML TAG ，具體表達出層級結構，
