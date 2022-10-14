@@ -73,6 +73,13 @@
  {:block/name ":/f02e5e6caef94116a94e7ecbdb82e594",
   :block/created-at 1665745413875,
   :block/updated-at 1665745413875}
+ {:block/name "__pure__*",
+  :block/created-at 1665748385436,
+  :block/updated-at 1665748385436}
+ {:block/name
+  "__pure__*/*object(react_jsx_dev_runtime__webpack_imported_module_1__[",
+  :block/created-at 1665748385433,
+  :block/updated-at 1665748385433}
  {:block/name "a",
   :block/created-at 1661538426559,
   :block/updated-at 1661538426559}
@@ -126,7 +133,7 @@
   :block/updated-at 1665721369028}
  {:block/name "react docs",
   :block/created-at 1665709504251,
-  :block/updated-at 1665747988237}
+  :block/updated-at 1665748437371}
  {:block/name "todo",
   :block/created-at 1662695819949,
   :block/updated-at 1662695819949}
