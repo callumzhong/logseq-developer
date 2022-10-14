@@ -10,9 +10,6 @@
  {:block/name "about me",
   :block/created-at 1665747109653,
   :block/updated-at 1665747109653}
- {:block/name "author's",
-  :block/created-at 1665779046623,
-  :block/updated-at 1665779046623}
  {:block/name "b",
   :block/created-at 1661538426559,
   :block/updated-at 1661538426559}
@@ -49,6 +46,15 @@
  {:block/name "git 指令",
   :block/created-at 1665745412295,
   :block/updated-at 1665746152454}
+ {:block/name "golang",
+  :block/created-at 1665779862775,
+  :block/updated-at 1665779862775}
+ {:block/name "golang/init",
+  :block/created-at 1665779869418,
+  :block/updated-at 1665779869418}
+ {:block/name "golang/template",
+  :block/created-at 1665779862772,
+  :block/updated-at 1665779862772}
  {:block/name "in-progress",
   :block/created-at 1661538426559,
   :block/updated-at 1661538426559}
@@ -79,18 +85,15 @@
  {:block/name "software development",
   :block/created-at 1665779222753,
   :block/updated-at 1665779222753}
- {:block/name "source",
-  :block/created-at 1665779158352,
-  :block/updated-at 1665779158352}
+ {:block/name "tags",
+  :block/created-at 1665780335346,
+  :block/updated-at 1665780335346}
  {:block/name "todd mcleod",
   :block/created-at 1665779046622,
   :block/updated-at 1665779046622}
  {:block/name "todo",
   :block/created-at 1662695819949,
   :block/updated-at 1662695819949}
- {:block/name "url",
-  :block/created-at 1665779094552,
-  :block/updated-at 1665779094552}
  {:block/name "wait",
   :block/created-at 1661538426559,
   :block/updated-at 1661538426559}
@@ -99,7 +102,7 @@
   :block/updated-at 1661538426559}
  {:block/name "web development with googles go programming language",
   :block/created-at 1665778972101,
-  :block/updated-at 1665779365058}
+  :block/updated-at 1665780378629}
  {:block/name "面試須知",
   :block/created-at 1664124133261, 
   :block/updated-at 1665533303079}]
