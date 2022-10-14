@@ -14,5 +14,10 @@
 	- Classes, Properties and Methods #javascript/class
 	- The Spread & Rest Operator #javascript/syntax
 	- Destructuring #javascript/syntax
-	-
--
+	- Reference and Primitive Types Refresher #javascript/types
+		- 注意陣列與物件是參考記憶體位址
+	- Refreshing Array Functions #javascript/syntax/function
+		- map 運用
+- Section 3 : React Basics & Working With Components
+	- What Are Component? And Why Is React All About Them?
+		-
