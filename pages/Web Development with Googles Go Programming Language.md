@@ -4,4 +4,4 @@ source:: https://github.com/GoesToEleven/golang-web-dev
 tags:: #course #programming [[software development]]
 
 - Section 2 : Template
-	-
+	- Performat parsing with an func-init #golang/template #golang/init
