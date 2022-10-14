@@ -1,6 +1,6 @@
 [{:block/name "2022-10-14",
   :block/created-at 1665732679132,
-  :block/updated-at 1665732679132}
+  :block/updated-at 1665747517330}
  {:block/name ":",
   :block/created-at 1665745413885,
   :block/updated-at 1665745413885}
@@ -126,7 +126,7 @@
   :block/updated-at 1665721369028}
  {:block/name "react docs",
   :block/created-at 1665709504251,
-  :block/updated-at 1665746788041}
+  :block/updated-at 1665747988237}
  {:block/name "todo",
   :block/created-at 1662695819949,
   :block/updated-at 1662695819949}
