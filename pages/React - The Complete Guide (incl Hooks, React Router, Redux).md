@@ -85,50 +85,44 @@
 				- 不需要寫 querySelector ,  createElement, append
 				- 不需要寫畫面更新，狀態更新即畫面更新
 				- 宣告式：設計 view 結果由 React 幕後處理細節
-	- Introducing JSX #react/syntax
+	- Introducing JSX #react/syntax/jsx
+	  collapsed:: true
 		- JavaScript XML 使用類似 XML/HTML 的語法， 它支援 ECMAScript，讓 XML/HTML 文本可以與 JavaScript / React 代碼共存，簡稱 JSX
-		- collapsed:: true
-		  ```js
+		- ```js
 		  const element = <h1>Hello World</h1>
 		  ```
 			- 宣告變數的標籤語法就是 JSX，回傳 React Elemnet
-		- 元素內可以崁入 Expression
-			- ```js
-			  const name = 'Josh Perez';
-			  const element = <h1>Hello, {name}</h1>;
-			  ```
-		- HTML Tag 使用屬性純字串或變數
-			- ```js
-			  // 字串
-			  const element = <a href="https://www.reactjs.org"> link </a>;
-			  // 或者是 Expression
-			  const element = <img src={user.avatarUrl}></img>;
-			  ```
-		- 與 XML 標籤相似，當標籤是空白允許使用 /> 關閉標籤
-			- ```
-			  const element = <img src={user.avatarUrl} />;
-			  ```
-		- JSX 標籤多個 children
-			- ```js
-			  const element = (
-			    <div>
-			      <h1>Hello!</h1>
-			      <h2>Good to see you here.</h2>
-			    </div>
-			  );
-			  ```
-		- JSX 透過 Babel 編譯後會是呼叫 React.createElement() 去建立 XML 標籤
-		  
-		  ```js
+		- ```js
+		  const name = 'Josh Perez';
+		  const element = <h1>Hello, {name}</h1>;
+		  ```
+			- 元素內可以崁入 Expression
+		- ```js
+		  // 字串
+		  const element = <a href="https://www.reactjs.org"> link </a>;
+		  // 或者是 Expression
+		  const element = <img src={user.avatarUrl}></img>;
+		  ```
+			- HTML Tag 使用屬性純字串或變數
+		- ```
+		  const element = <img src={user.avatarUrl} />;
+		  ```
+			- 與 XML 標籤相似，當標籤是空白允許使用 /> 關閉標籤
+		- ```js
+		  const element = (
+		    <div>
+		      <h1>Hello!</h1>
+		      <h2>Good to see you here.</h2>
+		    </div>
+		  );
+		  ```
+			- JSX 標籤多個 children
+		- ```js
 		  const element = <h1 className="greeting">Hello, World!</h1>
+		  const element2 = React.createElement('h1',{className: 'greeting'},'Hello, World!');
 		  ```
-		  
-		  ```js
-		  const element = React.createElement('h1',{className: 'greeting'},'Hello, World!');
-		  ```
-		- 查看 build 後的程式碼
-		  
-		  ```js
+			- JSX 透過 Babel 編譯後會是呼叫 React.createElement() 去建立 XML 標籤
+		- ```js
 		  function App() {
 		    return (
 		      <div>
@@ -137,10 +131,8 @@
 		      </div>
 		    );
 		  }
-		  ```
 		  
-		  ```js
-		  function App() {
+		  function App2() {
 		    return */*#__PURE__*/*Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("div", {
 		      children: [*/*#__PURE__*/*Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__["jsxDEV"])("h2", {
 		        children: "Let's get started!"
@@ -160,10 +152,9 @@
 		    }, this);
 		  }
 		  ```
-		- 經編譯後是呼叫一個 function 與 React.createElement 傳的參數一致，React.createElement() 會檢查寫法是否有 BUG
-		- 執行後會產生物件
-		  
-		  ```js
+			- 查看 build 後的程式碼
+			- 經編譯後是呼叫一個 function 與 React.createElement 傳的參數一致，React.createElement() 會檢查寫法是否有 BUG
+		- ```js
 		  // 注意：這是簡化過的結構 (模擬 DOM 樹狀結構)
 		    const element = {
 		      type: 'h1',
@@ -173,4 +164,10 @@
 		      }
 		    };
 		  ```
+			- 執行後會產生物件
+	- How React Works #react/introduction
+		-
 	-
+	-
+	-
+-
