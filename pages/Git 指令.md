@@ -217,10 +217,9 @@ ex: git show HEAD^^ OR git show HEAD~2
 - P4 沒有修改東西，但是 P6 除了 "33" 之外，還多了 "55"
 - 我們在這個 patch 要做的事情只有新增 "33"，我們並不想要提交 "55" 的部分
   
-  ![14d3eb75d33b65abaf32f0f05a2c8d28.png](:/200702a0df04405bbfd509e6f68eeaa7)
+  ![image.png](../assets/image_1665745588924_0.png)
 - 存檔後 git diff
-  
-  ![a148d73f499df917e40483ee8e3ddebf.png](:/3a831735cb4a40d5ae0067449d1b3f33)
+- ![image.png](../assets/image_1665745604142_0.png)
 - P4 增加 33 / P6 刪除 55
   
   ```
@@ -228,15 +227,14 @@ ex: git show HEAD^^ OR git show HEAD~2
   	git diff --cached // 查看修改部分，沒問題的話
   	git cherry-pick --continue
   ```
-  
-  ![2ff0ef5fc08ce38fcdafe6a50fc9d7a7.png](:/ce21d6ba5320428eb483a85b7c989fa7)
+  ![image.png](../assets/image_1665745746196_0.png)
 - 解完衝突後的 message 儲存
   
   ```
   	git log
   ```
   
-  ![9bd216d4ddfd21c79986b975aa78d7bc.png](:/e253b138dff8465e958ab6737cf2fe1f)
+  ![image.png](../assets/image_1665745764536_0.png)
   
   ---
 ### Rebase 衝突
@@ -255,25 +253,21 @@ ex: git show HEAD^^ OR git show HEAD~2
   ```
   	git rebase --abort
   ```
-  
-  ![5790f54b56c3a35ce26b3d7928afb1cc.png](:/a6bd222ffa5b44df9f4dbf921bdde798)
+- ![image.png](../assets/image_1665745870938_0.png)
 - 當 rebase 指令儲存後
-  
-  ![17d6a2cbc8976c5059dcd2072902aadb.png](:/729c6bfd15934fc1804c46b09a61412e)
+- ![image.png](../assets/image_1665745896165_0.png)
 - 發生衝突
-  ![aa5ab093afc96bdf57371a6faf861f63.png](:/915427823acf42d2883b82c146fd0106)
+- ![image.png](../assets/image_1665745911486_0.png)
 - num.txt 保留 55 刪除 33, git add -u 儲存
 - 已解決衝突
   
   ```
   	git rebase --continue
   ```
-  
-  ![67ceb3e39700345c13ed3da91c28cfc5.png](:/842aa2fc122d4bb1a5c7db803f01959c)
+- ![image.png](../assets/image_1665745933200_0.png)
 - Rebase Todo 由上至下一個一個 patch 執行
 - 故下一個 patch 發生衝突還會跳出
-  
-  ![2000a937c2536c225c27d3671900028f.png](:/3ace7dfa377a470ebbd89aa793153118)
+- ![image.png](../assets/image_1665745948558_0.png)
 - 比照 cherry-pick 解衝突 - >修改衝突檔案
 - git add -u
   
@@ -359,8 +353,7 @@ ex: git show HEAD^^ OR git show HEAD~2
   ```
   	git rebase <new base>
   ```
-  
-  ![1fe73fd5c0625267f16839fdfad1aa82.png](:/0f56f4ac70dc4b71b644d776fde459d7)
+- ![image.png](../assets/image_1665745966692_0.png)
 - bugfix 合併 master
   
   ```
@@ -369,10 +362,8 @@ ex: git show HEAD^^ OR git show HEAD~2
   ```
 - bugfix 往上爬找交叉 patch 為 P5
 - 之後 bugfix P5 過後的 patch 接 master last commit 後方
-  
-  ![1ab21ea8e43f6b21f3505d0c5623c4b8.png](:/885cab3ace79406cb936e78c2382e3d8)
-  
-  簡寫
+- ![image.png](../assets/image_1665745994877_0.png)
+- 簡寫
   
   ```
   	git rebase <new base> <branch name>
@@ -405,11 +396,11 @@ ex: git show HEAD^^ OR git show HEAD~2
   ```
   
   ---
-### 合併分支差異
-
-![3883e7495956cb145a022038093d7f4d.png](:/b7075175e9294c2e893eeb5aa9683610)
-
----
+- ### 合併分支差異
+  
+  ![image.png](../assets/image_1665746016961_0.png) 
+  
+  ---
 ## 遠端
 ### 新增遠端 Repository URL
 
@@ -550,27 +541,25 @@ ex: git show HEAD^^ OR git show HEAD~2
   	$ git reset HEAD^                   # 讓 backup 的所儲存的內容，全部回到檔案提交前的狀態
   	$ git branch -D backup              # 刪除 backup 分支
   ```
-### git stash 適用修改幅度不大
-
-![3723deeaddc806a50b89b747d55588f8.png](:/cb31e5b00bbe4420a07c3589fa4bcb62)
-
-```
-	$ git stash             # 暫存目前被修改的檔案
-	$ git stash list        # 列出所有 stash 紀錄
-```
-
-![2bb869dfd65fa6c109edd9d85b4e2f4e.png](:/78f2f49e8e254b3d88c7334e52e64a3d)
-
-```
-	Saved working directory and index state WIP on master: 7a165e7 Add 99
-	HEAD is now at 7a165e7 Add 99
-```
-
-表示這些是在 7a165e7 開發到一半，被 stash 起來的
-這裡的 WIP 的意思是 Working In Progress
-而 HEAD 也被移到 patch 7a165e7，也就是 master 的最後一個 patch
-
-![90fb94d43fb845f32a75f4bd5bf9a345.png](:/d604087cf2204e2f8605feccc2d243c4)
+- ### git stash 適用修改幅度不大
+- ![image.png](../assets/image_1665746043057_0.png)
+- ```
+  	$ git stash             # 暫存目前被修改的檔案
+  	$ git stash list        # 列出所有 stash 紀錄
+  ```
+  
+  ![image.png](../assets/image_1665746072937_0.png) 
+  
+  ```
+  	Saved working directory and index state WIP on master: 7a165e7 Add 99
+  	HEAD is now at 7a165e7 Add 99
+  ```
+  
+  表示這些是在 7a165e7 開發到一半，被 stash 起來的
+  這裡的 WIP 的意思是 Working In Progress
+  而 HEAD 也被移到 patch 7a165e7，也就是 master 的最後一個 patch
+  
+  ![image.png](../assets/image_1665746085939_0.png)
 - 查看所有被我們 stash 的內容
 - stash@{0} : WIP on master: 7a165e7 Add 99
   
@@ -585,9 +574,8 @@ ex: git show HEAD^^ OR git show HEAD~2
   ```
   
   **使用 git stash pop 之前，要先把 git status 清空**
-  
-  ![86aa4a7f738fdad752095afc426d08d7.png](:/f02e5e6caef94116a94e7ecbdb82e594)
-  ![ad8d766064c2593530e026bec143b2c5.png](:/c8886bf5483d49bc8cba0848cc2ad989)
+- ![image.png](../assets/image_1665746103552_0.png)
+- ![image.png](../assets/image_1665746108608_0.png)
 - 發生衝突的時候 stash 不會被清掉
 - 可以使用 git reset --hard HEAD 還原之後，再重做一次 git stash pop
 - Update Stream 是你後來提交的部分，Stashed changes 就是 stash 所修改的部分
@@ -670,11 +658,11 @@ git push <remote name> :<tag name>
   	git submodule update
   ```
   
-  ![abb78b71af1dbc7a802ae1213749b3de.png](:/61c127c7412f4060bd347a882bbf4433)
+  ![image.png](../assets/image_1665746125403_0.png)
 ### 設定忽略 Submodule 內部的改動
 - .gitmodules 加入 ignore = dirty 配置
   
-  ![cae996cde9a9de844700e167cf2130d7.png](:/81351e1f11c44e818254f30bed84ea15)
+  ![image.png](../assets/image_1665746142988_0.png)
 ### 切換 Submodule 版本
 
 cd 到子模組的資料夾路徑下,
