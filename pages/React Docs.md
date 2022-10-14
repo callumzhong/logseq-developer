@@ -1,5 +1,4 @@
-- {{renderer :tocgen}}
--
+- ## {{renderer :tocgen}}
 - ## 簡介
 	- 每一件工具總有能解決的問題，則 React 解決什麼問題呢 ?
 	- ```js
