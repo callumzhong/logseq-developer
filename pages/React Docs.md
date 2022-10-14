@@ -1,5 +1,5 @@
-- ## {{renderer :tocgen}}
 - ## 簡介
+  collapsed:: true
 	- 每一件工具總有能解決的問題，則 React 解決什麼問題呢 ?
 	- ```js
 	  var root = document.querySelector("#root");
@@ -58,4 +58,10 @@
 	  
 	  >延伸知識 💡
 	  建議閱讀官方介紹 - [Thinking in React (reactjs.org)](https://beta.reactjs.org/learn/thinking-in-react#step-3-find-the-minimal-but-complete-representation-of-ui-state)
-	-
+- ## 語法介紹
+	- React 使用 JavaScript XML，是一種使用類似 XML/HTML 的語法， 它支援 ECMAScript。
+	  讓 XML/HTML 文本可以與 JavaScript / React 代碼共存，簡稱 JSX
+	- ```js
+	  const element = <h1>Hello World</h1>
+	  ```
+	- 宣告變數的標籤語法就是 JSX，回傳 React Elemnet。
