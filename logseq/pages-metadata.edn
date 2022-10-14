@@ -112,7 +112,7 @@
  {:block/name
   "react - the complete guide (incl hooks, react router, redux)",
   :block/created-at 1665781519053,
-  :block/updated-at 1665785770052}
+  :block/updated-at 1665786237418}
  {:block/name "react docs",
   :block/created-at 1665709504251,
   :block/updated-at 1665785056133}
@@ -122,6 +122,12 @@
  {:block/name "react/syntax",
   :block/created-at 1665785510951,
   :block/updated-at 1665785510951}
+ {:block/name "react/syntax/jsx",
+  :block/created-at 1665786211019,
+  :block/updated-at 1665786211019}
+ {:block/name "react/syntax/ㄨ",
+  :block/created-at 1665786145601,
+  :block/updated-at 1665786145601}
  {:block/name "software development",
   :block/created-at 1665779222753,
   :block/updated-at 1665779222753}
