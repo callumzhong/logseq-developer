@@ -6,12 +6,12 @@
 	- 有問題請在 [Issues](https://github.com/callumzhong/logsea-developer/issues) 提交
 	- 全文搜尋請使用 `Ctrl + K`
 -
-- 領域
+- 技能
 	- HTML
 	- CSS
 	- JavaScript
 	- React
-	- Vue
+	- Vue.js
 	- Node.js
 	- Express
 	-
