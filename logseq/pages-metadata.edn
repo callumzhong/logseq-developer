@@ -64,12 +64,27 @@
  {:block/name "javascript",
   :block/created-at 1665782008833,
   :block/updated-at 1665782008833}
+ {:block/name "javascript/class",
+  :block/created-at 1665782274511,
+  :block/updated-at 1665782274511}
  {:block/name "javascript/function",
   :block/created-at 1665782082568,
   :block/updated-at 1665782082568}
  {:block/name "javascript/module",
   :block/created-at 1665782176487,
   :block/updated-at 1665782176487}
+ {:block/name "javascript/suntax",
+  :block/created-at 1665782706104,
+  :block/updated-at 1665782706104}
+ {:block/name "javascript/sutax",
+  :block/created-at 1665782707722,
+  :block/updated-at 1665782707722}
+ {:block/name "javascript/syn",
+  :block/created-at 1665782712648,
+  :block/updated-at 1665782712648}
+ {:block/name "javascript/syntax",
+  :block/created-at 1665782709433,
+  :block/updated-at 1665782709433}
  {:block/name "javascript/variable",
   :block/created-at 1665782011373,
   :block/updated-at 1665782011373}
@@ -100,7 +115,7 @@
  {:block/name
   "react - the complete guide (incl hooks, react router, redux)",
   :block/created-at 1665781519053,
-  :block/updated-at 1665782176491}
+  :block/updated-at 1665782720136}
  {:block/name "react docs",
   :block/created-at 1665709504251,
   :block/updated-at 1665748437371}
