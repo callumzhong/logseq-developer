@@ -1,4 +1,2 @@
----
-title: React
-tags: language
----
+title:: React
+tags:: language
