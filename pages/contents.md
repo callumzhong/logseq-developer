@@ -1,1 +1,3 @@
--
+- Hi，我是 Callum
+	- Code  [Callum ' s Github](https://github.com/callumzhong)
+- 歡迎來到 Callum ' s Developer Note
