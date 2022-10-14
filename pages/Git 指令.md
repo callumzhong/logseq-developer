@@ -203,7 +203,7 @@ ex: git show HEAD^^ OR git show HEAD~2
     both modified:   num.txt
   ```
   
-  ![image.png](../assets/image_1665745557200_0.png) ![9fadce3ca780d82241975cf99c9a6e76.png](:/376f03f7f28a4fc09e200c61065fb7fb)
+  ![image.png](../assets/image_1665745557200_0.png)
   
   ```
   <<<<<<< HEAD (P4)
