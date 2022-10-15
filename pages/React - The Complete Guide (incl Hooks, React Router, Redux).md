@@ -3,6 +3,7 @@
   > Source Code: https://github.com/academind/react-complete-guide-code
   > tags:: #course #programming #[[frontend development]]
 - Section 2 : JavaScript Refrescher
+  collapsed:: true
 	- Understanding "let" and "const" #javascript/variables
 	  collapsed:: true
 		- ```js
@@ -88,27 +89,32 @@
 	- Introducing JSX #react/syntax/jsx
 	  collapsed:: true
 		- JavaScript XML 使用類似 XML/HTML 的語法， 它支援 ECMAScript，讓 XML/HTML 文本可以與 JavaScript / React 代碼共存，簡稱 JSX
-		- ```js
+		- collapsed:: true
+		  ```js
 		  const element = <h1>Hello World</h1>
 		  ```
 			- 宣告變數的標籤語法就是 JSX，回傳 React Elemnet
-		- ```js
+		- collapsed:: true
+		  ```js
 		  const name = 'Josh Perez';
 		  const element = <h1>Hello, {name}</h1>;
 		  ```
 			- 元素內可以崁入 Expression
-		- ```js
+		- collapsed:: true
+		  ```js
 		  // 字串
 		  const element = <a href="https://www.reactjs.org"> link </a>;
 		  // 或者是 Expression
 		  const element = <img src={user.avatarUrl}></img>;
 		  ```
 			- HTML Tag 使用屬性純字串或變數
-		- ```
+		- collapsed:: true
+		  ```
 		  const element = <img src={user.avatarUrl} />;
 		  ```
 			- 與 XML 標籤相似，當標籤是空白允許使用 /> 關閉標籤
-		- ```js
+		- collapsed:: true
+		  ```js
 		  const element = (
 		    <div>
 		      <h1>Hello!</h1>
@@ -117,12 +123,14 @@
 		  );
 		  ```
 			- JSX 標籤多個 children
-		- ```js
+		- collapsed:: true
+		  ```js
 		  const element = <h1 className="greeting">Hello, World!</h1>
 		  const element2 = React.createElement('h1',{className: 'greeting'},'Hello, World!');
 		  ```
 			- JSX 透過 Babel 編譯後會是呼叫 React.createElement() 去建立 XML 標籤
-		- ```js
+		- collapsed:: true
+		  ```js
 		  function App() {
 		    return (
 		      <div>
@@ -154,7 +162,8 @@
 		  ```
 			- 查看 build 後的程式碼
 			- 經編譯後是呼叫一個 function 與 React.createElement 傳的參數一致，React.createElement() 會檢查寫法是否有 BUG
-		- ```js
+		- collapsed:: true
+		  ```js
 		  // 注意：這是簡化過的結構 (模擬 DOM 樹狀結構)
 		    const element = {
 		      type: 'h1',
@@ -166,6 +175,7 @@
 		  ```
 			- 執行後會產生物件
 	- How React Works #react/introduction
+	  collapsed:: true
 		-
 	-
 	-
