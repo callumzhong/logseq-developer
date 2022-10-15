@@ -27,6 +27,7 @@
 		- React 用於構建使用者介面，以 UI 設計來說通常具有數個相同結構的視覺模型，需要進行分解其名詞稱為 Component。
 		- 更多介紹 : https://beta.reactjs.org/learn/thinking-in-react
 	- React Code Is Written In A "Declarative Way"! #react/introduction
+	  collapsed:: true
 		- ```js
 		  var root = document.querySelector("#root");
 		  var button = document.createElement("button")
