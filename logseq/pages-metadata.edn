@@ -1,7 +1,4 @@
-[{:block/name "2022-10-14",
-  :block/created-at 1665732679132,
-  :block/updated-at 1665894349499}
- {:block/name "2022-10-15",
+[{:block/name "2022-10-15",
   :block/created-at 1665763237805,
   :block/updated-at 1665763237805}
  {:block/name "2022-10-16",
@@ -97,9 +94,6 @@
  {:block/name "maximilian schwarzmiiller",
   :block/created-at 1665895918531,
   :block/updated-at 1665895918531}
- {:block/name "node.js",
-  :block/created-at 1665752029866,
-  :block/updated-at 1665895501109}
  {:block/name "now",
   :block/created-at 1661538426559,
   :block/updated-at 1661538426559}
