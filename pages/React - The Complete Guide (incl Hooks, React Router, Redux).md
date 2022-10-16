@@ -20,11 +20,13 @@
 		- map 運用
 - Section 3 : React Basics & Working With Components
 	- What Are Component? And Why Is React All About Them? #react/introduction
+	  collapsed:: true
 		- React 用於構建使用者介面，以 UI 設計來說通常具有數個相同結構的視覺模型，需要進行分解撰寫可重複使用的代碼，其名稱為 Component
 		- >延伸閱讀 💡
 		  [用 React 思考 – React (reactjs.org)](https://zh-hant.reactjs.org/docs/thinking-in-react.html)
 		  [React 術語表 – React (reactjs.org)](https://zh-hant.reactjs.org/docs/glossary.html#components)
 	- React Code Is Written In A "Declarative Way"! #react/introduction
+	  collapsed:: true
 		- 假設功能需求某數字需要被使用者手動增加
 		- ```js
 		  var root = document.querySelector("#root");
@@ -98,6 +100,7 @@
 		- react-dom 定義 DOM 與 server 渲染
 		- react-scripts 定義 scripts & configuration 配置
 	- Introducing JSX #react/syntax/jsx
+	  collapsed:: true
 		- JavaScript XML 使用類似 XML/HTML 的語法， 它支援 ECMAScript，讓 XML/HTML 文本可以與 JavaScript / React 代碼共存，簡稱 JSX
 		- ```js
 		  const element = <h1>Hello World</h1>
@@ -179,6 +182,7 @@
 		- 執行後會產生物件
 	- How React Works #react/introduction
 	- Building a First Custom Component #react/component
+	  collapsed:: true
 		- Component 返回一個被 render 在頁面的 React element
 		- ```js
 		  // Function
@@ -204,6 +208,7 @@
 			- 小寫開頭是原生 XML
 			- 大寫開頭是自定義的 React Component
 	- Writing More Complex JSX Code #react/syntax/jsx
+	  collapsed:: true
 		- JSX 語法透過 Babel 編譯後會等於 React.createElement() 語法
 		- ```js
 		    React.createElement(
@@ -216,11 +221,45 @@
 			- HTML tag 字串 (例如: "div", "span")
 			- React Component
 			- React Fragment type #react/syntax/fragments
+		- ```js
+		  // 正確 Type 參數 (使用 Fragment)
+		  function ExpenseItem() {
+		    return <>
+		      <div>March 28th 2021</div>
+		      <div>
+		        <h2>Car Insurance</h2>
+		        <div>$294.67</div>
+		      </div>
+		    </>;
+		  }
+		  
+		  // 錯誤 Type 參數
+		  function ExpenseItem() {
+		    return (
+		      <div>March 28th 2021</div>
+		      <div>
+		        <h2>Car Insurance</h2>
+		        <div>$294.67</div>
+		      </div>
+		    );
+		  }
+		  ```
 		-
-		- >延伸閱讀 💡
-		  React element
-		  因為 createElement 的關係，Component 需
-		-
-		-
-	-
+	- Adding Basic CSS Styling #react/css
+		- 引入 css 檔案 (全域)
+		- ```jsx
+		  import './ExpenseItem.css';
+		  function ExpenseItem() {
+		    return (
+		      <div className="expense-item">
+		        <div>March 28th 2021</div>
+		        <div className="expense-item__description">
+		          <h2>Car Insurance</h2>
+		          <div className="expense-item__price">$294.67</div>
+		        </div>
+		      </div>
+		    );
+		  }
+		  ```
+	- Passing Data via "props" #react/props
 -
