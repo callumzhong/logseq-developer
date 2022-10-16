@@ -3,6 +3,7 @@
   > Source Code: https://github.com/academind/react-complete-guide-code
   > tags:: #course #programming #[[frontend development]]
 - Section 2 : JavaScript Refrescher
+  collapsed:: true
 	- Understanding "let" and "const" #javascript/variables
 		- ```js
 		  const test = 'A';
@@ -19,9 +20,11 @@
 		- map 運用
 - Section 3 : React Basics & Working With Components
 	- What Are Component? And Why Is React All About Them? #react/introduction
+	  collapsed:: true
 		- React 用於構建使用者介面，以 UI 設計來說通常具有數個相同結構的視覺模型，需要進行分解其名詞稱為 Component。
 		- 更多介紹 : https://beta.reactjs.org/learn/thinking-in-react
 	- React Code Is Written In A "Declarative Way"! #react/introduction
+		- 假設功能需求某數字需要被使用者手動增加
 		- ```js
 		  var root = document.querySelector("#root");
 		  var button = document.createElement("button")
@@ -40,15 +43,14 @@
 		  
 		  button.addEventListener('click', clickHandler)
 		  ```
-		- 需求：
-			- 某數字需要被使用者手動增加
-		- 實作：
-			- HTML Tag 建立
-			- HTML 掛載
-			- 狀態更新, 畫面更新
-		- 缺點：
-			- 當畫面複雜度增加、商業邏輯增加會過於疲累
-			- 命令式：告知細節得到結果
+		- 取得 ROOT DOM
+		- 建立 DOM
+		- 添加 Content
+		- 添加事件監聽
+			- 當使用者點擊後更新
+		- 掛載 DOM
+		- 上述操作稱為指令式程式設計(Imperative Programming) 告知細節得到結果
+		-
 		- ```js
 		  function App() {
 		    const [count, setCount] = useState(0);
@@ -63,6 +65,9 @@
 		    );
 		  }
 		  ```
+		- 設計 view 結果
+		- 添加事件監聽
+		- 上述稱為宣告式
 		- 需求：
 			- 某數字需要被使用者手動增加
 		- 實作：
@@ -73,6 +78,7 @@
 			- 不需要寫畫面更新，狀態更新即畫面更新
 			- 宣告式：設計 view 結果由 React 幕後處理細節
 	- Creating a new React Project #react/install
+	  collapsed:: true
 		- CSR
 			- [create-react-app-github](https://github.com/facebook/create-react-app)
 		- 混合(SSG and SSR)
@@ -95,34 +101,33 @@
 		- ```
 		   npx create-react-app my-app
 		  ```
-	-
+		- ![image.png](../assets/image_1665889988364_0.png)
+		- react 定義 component 所需要的功能
+		- react-dom 定義 DOM 與 server 渲染
+		- react-scripts 定義 scripts & configuration 配置
 	- Introducing JSX #react/syntax/jsx
 		- JavaScript XML 使用類似 XML/HTML 的語法， 它支援 ECMAScript，讓 XML/HTML 文本可以與 JavaScript / React 代碼共存，簡稱 JSX
 		- ```js
 		  const element = <h1>Hello World</h1>
 		  ```
-			- 宣告變數的標籤語法就是 JSX，回傳 React Elemnet
-		- collapsed:: true
-		  ```js
+		- 宣告變數的標籤語法就是 JSX，回傳 React Elemnet
+		- ```js
 		  const name = 'Josh Perez';
 		  const element = <h1>Hello, {name}</h1>;
 		  ```
-			- 元素內可以崁入 Expression
-		- collapsed:: true
-		  ```js
+		- 元素內可以崁入 Expression
+		- ```js
 		  // 字串
 		  const element = <a href="https://www.reactjs.org"> link </a>;
 		  // 或者是 Expression
 		  const element = <img src={user.avatarUrl}></img>;
 		  ```
-			- HTML Tag 使用屬性純字串或變數
-		- collapsed:: true
-		  ```
+		- HTML Tag 使用屬性純字串或變數
+		- ```
 		  const element = <img src={user.avatarUrl} />;
 		  ```
-			- 與 XML 標籤相似，當標籤是空白允許使用 /> 關閉標籤
-		- collapsed:: true
-		  ```js
+		- 與 XML 標籤相似，當標籤是空白允許使用 /> 關閉標籤
+		- ```js
 		  const element = (
 		    <div>
 		      <h1>Hello!</h1>
@@ -130,15 +135,13 @@
 		    </div>
 		  );
 		  ```
-			- JSX 標籤多個 children
-		- collapsed:: true
-		  ```js
+		- JSX 標籤多個 children
+		- ```js
 		  const element = <h1 className="greeting">Hello, World!</h1>
 		  const element2 = React.createElement('h1',{className: 'greeting'},'Hello, World!');
 		  ```
-			- JSX 透過 Babel 編譯後會是呼叫 React.createElement() 去建立 XML 標籤
-		- collapsed:: true
-		  ```js
+		- JSX 透過 Babel 編譯後會是呼叫 React.createElement() 去建立 XML 標籤
+		- ```js
 		  function App() {
 		    return (
 		      <div>
@@ -168,10 +171,9 @@
 		    }, this);
 		  }
 		  ```
-			- 查看 build 後的程式碼
-			- 經編譯後是呼叫一個 function 與 React.createElement 傳的參數一致，React.createElement() 會檢查寫法是否有 BUG
-		- collapsed:: true
-		  ```js
+		- 查看 build 後的程式碼
+		- 經編譯後是呼叫一個 function 與 React.createElement 傳的參數一致，React.createElement() 會檢查寫法是否有 BUG
+		- ```js
 		  // 注意：這是簡化過的結構 (模擬 DOM 樹狀結構)
 		    const element = {
 		      type: 'h1',
@@ -181,8 +183,9 @@
 		      }
 		    };
 		  ```
-			- 執行後會產生物件
+		- 執行後會產生物件
 	- How React Works #react/introduction
+		-
 		-
 	-
 	-
