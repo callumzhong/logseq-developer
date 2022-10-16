@@ -12,7 +12,7 @@
   :block/updated-at 1661538426559}
  {:block/name "about me",
   :block/created-at 1665747109653,
-  :block/updated-at 1665747109653}
+  :block/updated-at 1665890909128}
  {:block/name "b",
   :block/created-at 1661538426559,
   :block/updated-at 1661538426559}
@@ -115,10 +115,10 @@
  {:block/name
   "react - the complete guide (incl hooks, react router, redux)",
   :block/created-at 1665781519053,
-  :block/updated-at 1665890668957}
- {:block/name "react docs",
-  :block/created-at 1665709504251,
-  :block/updated-at 1665785056133}
+  :block/updated-at 1665890838710}
+ {:block/name "react/component",
+  :block/created-at 1665890838706,
+  :block/updated-at 1665890838706}
  {:block/name "react/in",
   :block/created-at 1665889047806,
   :block/updated-at 1665889047806}
@@ -131,9 +131,6 @@
  {:block/name "react/setep",
   :block/created-at 1665889010390,
   :block/updated-at 1665889010390}
- {:block/name "react/steace",
-  :block/created-at 1665889024739,
-  :block/updated-at 1665889024739}
  {:block/name "react/steacp",
   :block/created-at 1665889025563,
   :block/updated-at 1665889025563}
