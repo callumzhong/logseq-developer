@@ -197,13 +197,30 @@
 		- ```
 		  /components/ExpenseItem.jsx
 		  ```
-		- Component 會返回 React element 所以可以被其他 Component 引用
+		- Component render React element 所以可以被其他 Component 引用
 		- ```jsx
 		  <Todo></Todo>
 		  ```
 			- 小寫開頭是原生 XML
 			- 大寫開頭是自定義的 React Component
 	- Writing More Complex JSX Code #react/syntax/jsx
-		- JSX 透過 執行 React.createElement()
+		- JSX 語法透過 Babel 編譯後會等於 React.createElement() 語法
+		- ```js
+		    React.createElement(
+		      type,
+		      [props],
+		      [...children]
+		    )
+		  ```
+		- type 參數可接受類型
+			- HTML tag 字串 (例如: "div", "span")
+			- React Component
+			- React Fragment type #react/syntax/fragments
+		-
+		- >延伸閱讀 💡
+		  React element
+		  因為 createElement 的關係，Component 需
+		-
+		-
 	-
 -
