@@ -12,7 +12,7 @@
   :block/updated-at 1661538426559}
  {:block/name "about me",
   :block/created-at 1665747109653,
-  :block/updated-at 1665890909128}
+  :block/updated-at 1665961300214}
  {:block/name "b",
   :block/created-at 1661538426559,
   :block/updated-at 1661538426559}
@@ -66,7 +66,7 @@
   :block/updated-at 1661538426559}
  {:block/name "javascript",
   :block/created-at 1665782008833,
-  :block/updated-at 1665958856463}
+  :block/updated-at 1665961186903}
  {:block/name "javascript/class",
   :block/created-at 1665782274511,
   :block/updated-at 1665782274511}
@@ -79,9 +79,6 @@
  {:block/name "javascript/syntax/function",
   :block/created-at 1665783201014,
   :block/updated-at 1665783201014}
- {:block/name "javascript/type",
-  :block/created-at 1665783524395,
-  :block/updated-at 1665783524395}
  {:block/name "javascript/types",
   :block/created-at 1665783525210,
   :block/updated-at 1665783525210}
@@ -108,7 +105,7 @@
   :block/updated-at 1665895942868}
  {:block/name "react",
   :block/created-at 1665751704312,
-  :block/updated-at 1665895495781}
+  :block/updated-at 1665961277018}
  {:block/name
   "react - the complete guide (incl hooks, react router, redux)",
   :block/created-at 1665781519053,

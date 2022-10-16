@@ -21,7 +21,6 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 	- Refreshing Array Functions #javascript/syntax/function
 		- map 運用
 - Section 3 : React Basics & Working With Components
-  collapsed:: true
 	- What Are Component? And Why Is React All About Them? #react/introduction
 	  collapsed:: true
 		- React 用於構建使用者介面，以 UI 設計來說通常具有數個相同結構的視覺模型，需要進行分解撰寫可重複使用的代碼，其名稱為 Component
@@ -265,4 +264,5 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		  }
 		  ```
 	- Passing Data via "props" #react/ui/props
+		-
 -

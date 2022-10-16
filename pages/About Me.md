@@ -12,7 +12,7 @@
 - 範疇
 	- HTML
 	- CSS
-	- JavaScript
+	- [[javascript]]
 	- Git
 	- [[react]]
 	- Node.js
