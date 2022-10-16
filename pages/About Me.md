@@ -1,16 +1,16 @@
 - Hi，我是 Callum
-	- 部落格 [ Callum 's Blog](https://callumzhong.github.io/)
-	- 程式  [Callum's Github](https://github.com/callumzhong)
+  - 部落格 [ Callum 's Blog](https://callumzhong.github.io/)
+  - 程式 [Callum's Github](https://github.com/callumzhong)
 -
 - 當前位置是 Callum's Note
-	- 有問題請在 [Issues](https://github.com/callumzhong/logsea-developer/issues) 提交
-	- 全文搜尋請使用 `Ctrl + K`
+  - 有問題請在 [Issues](https://github.com/callumzhong/logsea-developer/issues) 提交
+  - 全文搜尋請使用 `Ctrl + K`
 -
 - 範疇
-	- HTML
-	- CSS
-	- JavaScript
-	- Git
-	- [[React]]
-	- Node.js
-	- Express
+  - HTML
+  - CSS
+  - JavaScript
+  - Git
+  - [[react]]
+  - Node.js
+  - Express
