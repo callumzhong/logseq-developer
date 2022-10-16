@@ -11,6 +11,6 @@
 	- CSS
 	- JavaScript
 	- Git
-	- React
+	- [[React]]
 	- Node.js
 	- Express

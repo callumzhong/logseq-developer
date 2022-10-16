@@ -50,7 +50,6 @@
 			- 當使用者點擊後更新
 		- 掛載 DOM
 		- 上述操作稱為指令式程式設計(Imperative Programming) 告知細節得到結果
-		-
 		- ```js
 		  function App() {
 		    const [count, setCount] = useState(0);
@@ -67,16 +66,7 @@
 		  ```
 		- 設計 view 結果
 		- 添加事件監聽
-		- 上述稱為宣告式
-		- 需求：
-			- 某數字需要被使用者手動增加
-		- 實作：
-			- React 為需求設計 view
-			- 狀態更新
-		- 優點：
-			- 不需要寫 querySelector ,  createElement, append
-			- 不需要寫畫面更新，狀態更新即畫面更新
-			- 宣告式：設計 view 結果由 React 幕後處理細節
+		- 上述稱為宣告式程式設計，告知結果細節由封裝好的 React 處理
 	- Creating a new React Project #react/install
 	  collapsed:: true
 		- CSR
@@ -97,6 +87,7 @@
 		- reference
 			- https://zh-hant.reactjs.org/docs/create-a-new-react-app.html
 	- Analyzing a Standard React Project #react/install
+	  collapsed:: true
 		- 透過 CLI 建立專案
 		- ```
 		   npx create-react-app my-app
@@ -185,7 +176,7 @@
 		  ```
 		- 執行後會產生物件
 	- How React Works #react/introduction
-		-
+	- Building a First Custom Component #react/component
 		-
 	-
 	-
