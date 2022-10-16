@@ -128,18 +128,24 @@
  {:block/name "react/introduction",
   :block/created-at 1665784938941,
   :block/updated-at 1665784938941}
- {:block/name "react/props",
-  :block/created-at 1665894034511,
-  :block/updated-at 1665894034511}
- {:block/name "react/syntax",
-  :block/created-at 1665785510951,
-  :block/updated-at 1665785510951}
- {:block/name "react/syntax/fragments",
-  :block/created-at 1665893151755,
-  :block/updated-at 1665893151755}
- {:block/name "react/syntax/jsx",
-  :block/created-at 1665786211019,
-  :block/updated-at 1665786211019}
+ {:block/name "react/ui",
+  :block/created-at 1665894813301,
+  :block/updated-at 1665894813301}
+ {:block/name "react/ui/component",
+  :block/created-at 1665894846238,
+  :block/updated-at 1665894846238}
+ {:block/name "react/ui/css",
+  :block/created-at 1665894813298,
+  :block/updated-at 1665894813298}
+ {:block/name "react/ui/fragments",
+  :block/created-at 1665894902334,
+  :block/updated-at 1665894902334}
+ {:block/name "react/ui/jsx",
+  :block/created-at 1665894911280,
+  :block/updated-at 1665894911280}
+ {:block/name "react/ui/props",
+  :block/created-at 1665894862694,
+  :block/updated-at 1665894862694}
  {:block/name "software development",
   :block/created-at 1665779222753,
   :block/updated-at 1665779222753}

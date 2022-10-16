@@ -1,7 +1,8 @@
 - > Author(s): [[Maximilian Schwarzmiiller]]
-  > Url: https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/25599264
-  > Source Code: https://github.com/academind/react-complete-guide-code
-  > tags:: #course #programming #[[frontend development]]
+  Url: https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/25599264
+  Source Code: https://github.com/academind/react-complete-guide-code
+  tags:: #course  #programming #[[frontend development]]
+- tags:: #course
 - Section 2 : JavaScript Refrescher
   collapsed:: true
 	- Understanding "let" and "const" #javascript/variables
@@ -99,7 +100,7 @@
 		- react 定義 component 所需要的功能
 		- react-dom 定義 DOM 與 server 渲染
 		- react-scripts 定義 scripts & configuration 配置
-	- Introducing JSX #react/syntax/jsx
+	- Introducing JSX #react/ui/jsx
 	  collapsed:: true
 		- JavaScript XML 使用類似 XML/HTML 的語法， 它支援 ECMAScript，讓 XML/HTML 文本可以與 JavaScript / React 代碼共存，簡稱 JSX
 		- ```js
@@ -181,7 +182,7 @@
 		  ```
 		- 執行後會產生物件
 	- How React Works #react/introduction
-	- Building a First Custom Component #react/component
+	- Building a First Custom Component #react/ui/component
 	  collapsed:: true
 		- Component 返回一個被 render 在頁面的 React element
 		- ```js
@@ -207,7 +208,7 @@
 		  ```
 			- 小寫開頭是原生 XML
 			- 大寫開頭是自定義的 React Component
-	- Writing More Complex JSX Code #react/syntax/jsx
+	- Writing More Complex JSX Code #react/ui/jsx
 	  collapsed:: true
 		- JSX 語法透過 Babel 編譯後會等於 React.createElement() 語法
 		- ```js
@@ -220,7 +221,7 @@
 		- type 參數可接受類型
 			- HTML tag 字串 (例如: "div", "span")
 			- React Component
-			- React Fragment type #react/syntax/fragments
+			- React Fragment type #react/ui/fragments
 		- ```js
 		  // 正確 Type 參數 (使用 Fragment)
 		  function ExpenseItem() {
@@ -245,7 +246,7 @@
 		  }
 		  ```
 		-
-	- Adding Basic CSS Styling #react/css
+	- Adding Basic CSS Styling #react/ui/css
 		- 引入 css 檔案 (全域)
 		- ```jsx
 		  import './ExpenseItem.css';
@@ -261,5 +262,5 @@
 		    );
 		  }
 		  ```
-	- Passing Data via "props" #react/props
+	- Passing Data via "props" #react/ui/props
 -
