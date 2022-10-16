@@ -1,6 +1,6 @@
 [{:block/name "2022-10-14",
   :block/created-at 1665732679132,
-  :block/updated-at 1665752037676}
+  :block/updated-at 1665894349499}
  {:block/name "2022-10-15",
   :block/created-at 1665763237805,
   :block/updated-at 1665763237805}
@@ -115,31 +115,22 @@
  {:block/name
   "react - the complete guide (incl hooks, react router, redux)",
   :block/created-at 1665781519053,
-  :block/updated-at 1665893767581}
+  :block/updated-at 1665894034515}
  {:block/name "react/component",
   :block/created-at 1665890838706,
   :block/updated-at 1665890838706}
- {:block/name "react/in",
-  :block/created-at 1665889047806,
-  :block/updated-at 1665889047806}
+ {:block/name "react/css",
+  :block/created-at 1665893835661,
+  :block/updated-at 1665893835661}
  {:block/name "react/install",
   :block/created-at 1665889049070,
   :block/updated-at 1665889049070}
  {:block/name "react/introduction",
   :block/created-at 1665784938941,
   :block/updated-at 1665784938941}
- {:block/name "react/setep",
-  :block/created-at 1665889010390,
-  :block/updated-at 1665889010390}
- {:block/name "react/steacp",
-  :block/created-at 1665889025563,
-  :block/updated-at 1665889025563}
- {:block/name "react/stec",
-  :block/created-at 1665889023164,
-  :block/updated-at 1665889023164}
- {:block/name "react/step",
-  :block/created-at 1665889020392,
-  :block/updated-at 1665889020392}
+ {:block/name "react/props",
+  :block/created-at 1665894034511,
+  :block/updated-at 1665894034511}
  {:block/name "react/syntax",
   :block/created-at 1665785510951,
   :block/updated-at 1665785510951}
