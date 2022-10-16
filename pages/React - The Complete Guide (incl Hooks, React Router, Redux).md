@@ -4,7 +4,6 @@
   > tags:: #course #programming #[[frontend development]]
 - Section 2 : JavaScript Refrescher
 	- Understanding "let" and "const" #javascript/variables
-	  collapsed:: true
 		- ```js
 		  const test = 'A';
 		  ```
@@ -15,18 +14,14 @@
 	- The Spread & Rest Operator #javascript/syntax
 	- Destructuring #javascript/syntax
 	- Reference and Primitive Types Refresher #javascript/types
-	  collapsed:: true
 		- 注意陣列與物件是參考記憶體位址
 	- Refreshing Array Functions #javascript/syntax/function
-	  collapsed:: true
 		- map 運用
 - Section 3 : React Basics & Working With Components
 	- What Are Component? And Why Is React All About Them? #react/introduction
-	  collapsed:: true
 		- React 用於構建使用者介面，以 UI 設計來說通常具有數個相同結構的視覺模型，需要進行分解其名詞稱為 Component。
 		- 更多介紹 : https://beta.reactjs.org/learn/thinking-in-react
 	- React Code Is Written In A "Declarative Way"! #react/introduction
-	  collapsed:: true
 		- ```js
 		  var root = document.querySelector("#root");
 		  var button = document.createElement("button")
@@ -45,15 +40,15 @@
 		  
 		  button.addEventListener('click', clickHandler)
 		  ```
-			- 需求：
-				- 某數字需要被使用者手動增加
-			- 實作：
-				- HTML Tag 建立
-				- HTML 掛載
-				- 狀態更新, 畫面更新
-			- 缺點：
-				- 當畫面複雜度增加、商業邏輯增加會過於疲累
-				- 命令式：告知細節得到結果
+		- 需求：
+			- 某數字需要被使用者手動增加
+		- 實作：
+			- HTML Tag 建立
+			- HTML 掛載
+			- 狀態更新, 畫面更新
+		- 缺點：
+			- 當畫面複雜度增加、商業邏輯增加會過於疲累
+			- 命令式：告知細節得到結果
 		- ```js
 		  function App() {
 		    const [count, setCount] = useState(0);
@@ -68,15 +63,15 @@
 		    );
 		  }
 		  ```
-			- 需求：
-				- 某數字需要被使用者手動增加
-			- 實作：
-				- React 為需求設計 view
-				- 狀態更新
-			- 優點：
-				- 不需要寫 querySelector ,  createElement, append
-				- 不需要寫畫面更新，狀態更新即畫面更新
-				- 宣告式：設計 view 結果由 React 幕後處理細節
+		- 需求：
+			- 某數字需要被使用者手動增加
+		- 實作：
+			- React 為需求設計 view
+			- 狀態更新
+		- 優點：
+			- 不需要寫 querySelector ,  createElement, append
+			- 不需要寫畫面更新，狀態更新即畫面更新
+			- 宣告式：設計 view 結果由 React 幕後處理細節
 	- Creating a new React Project #react/install
 		- CSR
 			- [create-react-app-github](https://github.com/facebook/create-react-app)
@@ -94,14 +89,16 @@
 			- [Glitch](https://glitch.com/edit/#!/remix/starter-react-template)
 			- [Stackblitz](https://stackblitz.com/edit/react-jpp86w)
 		- reference
-		   [I Want To Know React - 初探 React](https://ithelp.ithome.com.tw/articles/10237813)
-	-
+			- https://zh-hant.reactjs.org/docs/create-a-new-react-app.html
+	- Analyzing a Standard React Project #react/install
+		- 透過 CLI 建立專案
+		- ```
+		   npx create-react-app my-app
+		  ```
 	-
 	- Introducing JSX #react/syntax/jsx
-	  collapsed:: true
 		- JavaScript XML 使用類似 XML/HTML 的語法， 它支援 ECMAScript，讓 XML/HTML 文本可以與 JavaScript / React 代碼共存，簡稱 JSX
-		- collapsed:: true
-		  ```js
+		- ```js
 		  const element = <h1>Hello World</h1>
 		  ```
 			- 宣告變數的標籤語法就是 JSX，回傳 React Elemnet
