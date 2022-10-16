@@ -3,7 +3,6 @@
   > Source Code: https://github.com/academind/react-complete-guide-code
   > tags:: #course #programming #[[frontend development]]
 - Section 2 : JavaScript Refrescher
-  collapsed:: true
 	- Understanding "let" and "const" #javascript/variables
 	  collapsed:: true
 		- ```js
@@ -78,6 +77,26 @@
 				- 不需要寫 querySelector ,  createElement, append
 				- 不需要寫畫面更新，狀態更新即畫面更新
 				- 宣告式：設計 view 結果由 React 幕後處理細節
+	- Creating a new React Project #react/install
+		- CSR
+			- [create-react-app-github](https://github.com/facebook/create-react-app)
+		- 混合(SSG and SSR)
+			- [Nextjs](https://nextjs.org/)
+		- 靜態專案
+			- [Gatsby](https://www.gatsbyjs.com/)
+			- [docusaurus](https://docusaurus.io/)
+				- [與其他工具比較介紹](https://docusaurus.io/zh-CN/docs#comparison-with-other-tools)
+		- CDN 方式載入 HTML
+			- [官方介紹文件](https://reactjs.org/docs/add-react-to-a-website.html)
+		- 線上編譯 Coding 工具
+			- [CodePen](https://codepen.io/pen?&editable=true&editors=0010)
+			- [CodeSandbox](https://codesandbox.io/s/new)
+			- [Glitch](https://glitch.com/edit/#!/remix/starter-react-template)
+			- [Stackblitz](https://stackblitz.com/edit/react-jpp86w)
+		- reference
+		   [I Want To Know React - 初探 React](https://ithelp.ithome.com.tw/articles/10237813)
+	-
+	-
 	- Introducing JSX #react/syntax/jsx
 	  collapsed:: true
 		- JavaScript XML 使用類似 XML/HTML 的語法， 它支援 ECMAScript，讓 XML/HTML 文本可以與 JavaScript / React 代碼共存，簡稱 JSX
