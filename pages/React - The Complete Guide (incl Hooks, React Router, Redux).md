@@ -21,8 +21,9 @@
 - Section 3 : React Basics & Working With Components
 	- What Are Component? And Why Is React All About Them? #react/introduction
 		- React 用於構建使用者介面，以 UI 設計來說通常具有數個相同結構的視覺模型，需要進行分解撰寫可重複使用的代碼，其名稱為 Component
-		- https://beta.reactjs.org/learn/thinking-in-react
-		- 更多介紹 :
+		- >延伸閱讀 💡
+		  [用 React 思考 – React (reactjs.org)](https://zh-hant.reactjs.org/docs/thinking-in-react.html)
+		  [React 術語表 – React (reactjs.org)](https://zh-hant.reactjs.org/docs/glossary.html#components)
 	- React Code Is Written In A "Declarative Way"! #react/introduction
 		- 假設功能需求某數字需要被使用者手動增加
 		- ```js
@@ -178,8 +179,31 @@
 		- 執行後會產生物件
 	- How React Works #react/introduction
 	- Building a First Custom Component #react/component
-		-
-	-
-	-
+		- Component 返回一個被 render 在頁面的 React element
+		- ```js
+		  // Function
+		  function Welcome() {
+		    return <h1>Hello</h1>;
+		  }
+		  
+		  // ES6 Class
+		  class Welcome extends React.Component {
+		    render() {
+		      return <h1>Hello, {this.props.name}</h1>;
+		    }
+		  }
+		  ```
+		- 命名規範
+		- ```
+		  /components/ExpenseItem.jsx
+		  ```
+		- Component 會返回 React element 所以可以被其他 Component 引用
+		- ```jsx
+		  <Todo></Todo>
+		  ```
+			- 小寫開頭是原生 XML
+			- 大寫開頭是自定義的 React Component
+	- Writing More Complex JSX Code #react/syntax/jsx
+		- JSX 透過 執行 React.createElement()
 	-
 -
