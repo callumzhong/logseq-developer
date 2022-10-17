@@ -174,7 +174,7 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		  // 渲染
 		  root.render(button)
 		  ```
-		-
+		- 前面有提到指令式與宣告式程式
 	- Building a First Custom Component #react/ui/component
 		- React Component 返回一個被 render 在頁面的 React element
 		  id:: 634b89ff-6ccb-41db-ab9a-145620ebc869
