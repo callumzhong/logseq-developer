@@ -211,6 +211,7 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 			- 小寫開頭是原生 XML
 			- 大寫開頭是自定義的 React Component
 	- Writing More Complex JSX Code #react/ui/jsx
+	  collapsed:: true
 		- JSX 語法透過 Babel 編譯後會等於 React.createElement() 語法
 		- ```js
 		    React.createElement(
@@ -248,6 +249,7 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		  ```
 		-
 	- Adding Basic CSS Styling #react/ui/css
+	  collapsed:: true
 		- 引入 css 檔案 (全域)
 		- ```jsx
 		  import './ExpenseItem.css';
@@ -264,6 +266,7 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		  }
 		  ```
 	- Passing Data via "props" #react/ui/props
+	  collapsed:: true
 		- 之前說明 ((634b89ff-6ccb-41db-ab9a-145620ebc869))
 		- 則 props 是 React Component 的數據輸入，它可以是任何型別就像 Function 參數
 		- 只接受讀取不可更改 (單向數據流)
@@ -294,5 +297,13 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		  
 		  ```
 		-
--
--
+	- The Concept of "Composition" ("children props") #react/ui/props #react/ui/component
+		- props 有特殊的屬性 children 是 Component 用來崁入標記之間的內容
+			- ```jsx
+			  function Welcome(props) {
+			    return <p>{props.children}</p>;
+			  }
+			  
+			  <Welcome>Hello world!</Welcome>
+			  ```
+		-
