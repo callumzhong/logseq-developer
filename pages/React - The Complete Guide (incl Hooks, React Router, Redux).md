@@ -301,7 +301,7 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		  React Component 之間使用非 UI 的功能，建議抽離成獨立 JavaScript 模組透過 import 使用。不需要在 Component 使用繼承過於複雜化它。
 	- Working with "State" #react/state
 		- 設計 Component 時會有某些數據是需要被儲存，當使用者進行操作導致 "數據更新"。將驅動畫面需要被更新，這種儲存稱為狀態。
-		- > 💡 資料驅動 UI 由狀態控制 MVVM (Model–view–viewmodel)
+		- > 💡
 		- ```js
 		  const [state, setState] = useState(initialState);
 		  ```
