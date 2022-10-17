@@ -33,7 +33,7 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 	- React Code Is Written In A "Declarative Way"! #react/introduction
 		- 假設功能需求某數字需要被使用者手動增加
 		- ```js
-		  var root = document.querySelector("#root");
+		  var root = document.getElementById("root");
 		  var button = document.createElement("button")
 		  var p = document.createElement("p");
 		  var amount = 0 
@@ -195,17 +195,25 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		- ```js
 		  // 1. Vanilla JS
 		  // 選擇實體 DOM (ID = root)
-		  var root = document.querySelector("#root");
+		  var root = document.getElementById("root");
 		  // 產生 Button DOM
 		  var button = document.createElement("button")
 		  // 賦予內容
-		  button.textContent = "+";
+		  button.textContent = "按鈕";
 		  // 掛載 root DOM 的子節點
 		  root.append(button)
 		  
-		  
-		  
+		  // 2. React JS
+		  // 引入函式
+		  import ReactDOM from "react-dom/client";
+		  // 產生 React element
+		  var button = <button>按鈕</button>
+		  // 在實體 DOM 節點上建立 React 根節點
+		  var root = ReactDOM.createRoot(document.getElementById("root"))
+		  // 渲染
+		  root.render(button)
 		  ```
+		- > 注意
 	- Building a First Custom Component #react/ui/component
 		- React Component 返回一個被 render 在頁面的 React element
 		  id:: 634b89ff-6ccb-41db-ab9a-145620ebc869
