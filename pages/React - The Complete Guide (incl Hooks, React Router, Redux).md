@@ -31,43 +31,10 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		  [用 React 思考 – React (reactjs.org)](https://zh-hant.reactjs.org/docs/thinking-in-react.html)
 		  [React 術語表 – React (reactjs.org)](https://zh-hant.reactjs.org/docs/glossary.html#components)
 	- React Code Is Written In A "Declarative Way"! #react/introduction
-		- 假設功能需求某數字需要被使用者手動增加
-		- ```js
-		  function
-		  ```
-		- 取得 ROOT DOM
-		- 建立 DOM
-		- 添加 Content
-		- 添加事件監聽
-			- 當使用者點擊後更新
-		- 掛載 DOM
-		- 上述操作稱為指令式程式設計(Imperative Programming) 告知細節得到結果
-		- > 💡 程式演算法過程由自己規劃處理
-		- ```js
-		  import {createRoot} from "react-dom/client";
-		  
-		  function App() {
-		    const [count, setCount] = useState(0);
-		    const clickHandler = () => {
-		      setCount((prevState) => prevState + 1);
-		    };
-		    return (
-		      <div className="App">
-		        <p>{count}</p>
-		        <button onClick={clickHandler}>+</button>
-		      </div>
-		    );
-		  }
-		  
-		  var root = createRoot(document.getElementById("root"))
-		  root.render(App)
-		  
-		  ```
-		- 設計 view 結果
-		- 添加事件監聽
-		- 渲染
-		- 上述稱為宣告式程式設計，告知結果細節由封裝好的 React 處理
-		- > 💡 程式演算過程由已封裝的函式處理
+		- 指令式程式設計(Imperative Programming) 告知細節得到結果
+		- > 💡 程式演算法過程由自己規劃處理 (程式繁瑣難以除錯)
+		- 宣告式程式設計，告知結果細節由封裝好的 React 處理
+		- > 💡 程式演算過程由已封裝的函式處理 (程式易讀容易除錯)
 	- Creating a new React Project #react/install
 	  collapsed:: true
 		- CSR
