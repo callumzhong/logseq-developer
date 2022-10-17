@@ -70,6 +70,8 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		      </div>
 		    );
 		  }
+		  
+		  
 		  ```
 		- 設計 view 結果
 		- 添加事件監聽
@@ -205,15 +207,14 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		  
 		  // 2. React JS
 		  // 引入函式
-		  import ReactDOM from "react-dom/client";
+		  import {createRoot} from "react-dom/client";
 		  // 產生 React element (通常是用 React Component render 返回 React element)
 		  var button = <button>按鈕</button>
 		  // 在實體 DOM 節點上建立 React 根節點
-		  var root = ReactDOM.createRoot(document.getElementById("root"))
+		  var root = createRoot(document.getElementById("root"))
 		  // 渲染
 		  root.render(button)
 		  ```
-		- React 使用 JSX 語法定義有 "button" 有 "按鈕的"
 		-
 	- Building a First Custom Component #react/ui/component
 		- React Component 返回一個被 render 在頁面的 React element
