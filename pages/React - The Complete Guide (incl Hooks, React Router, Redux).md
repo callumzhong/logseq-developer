@@ -191,10 +191,20 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		  ```
 		- 執行後會產生物件
 	- How React Works #react/introduction
-		- JSX 撰寫 React Element 經過編譯等於 React.createElement 語法
+		- 我們用比較的方式說明 React Work 原理
 		- ```js
-		  var vanillaJSButton = document.createElement("button")
-		  var vanillaJSButton = React.createElement("button")
+		  // 1. Vanilla JS
+		  // 選擇實體 DOM (ID = root)
+		  var root = document.querySelector("#root");
+		  // 產生 Button DOM
+		  var button = document.createElement("button")
+		  // 賦予內容
+		  button.textContent = "+";
+		  // 掛載 root DOM 的子節點
+		  root.append(button)
+		  
+		  
+		  
 		  ```
 	- Building a First Custom Component #react/ui/component
 		- React Component 返回一個被 render 在頁面的 React element
