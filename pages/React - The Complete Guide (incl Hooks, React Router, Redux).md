@@ -276,13 +276,14 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		  
 		  ```
 		- > 小知識 💡
+		  透過 funciton 把資料往上傳遞
 		- ```jsx
-		  
 		  function Test(props) {
 		    const name = "Hello"
-		    return <div onClick={()=>{
-		      props.onClick(name)
-		    }} >Hello</div>;
+		    const clickHandler = ()=>{
+		  	props.onClick(name)
+		    }
+		    return <div onClick={clickHandler}> Hello</div>;
 		  }
 		  function App() {
 		    const clickHandler = (value)=>{
@@ -293,4 +294,5 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		  
 		  ```
 		-
+-
 -
