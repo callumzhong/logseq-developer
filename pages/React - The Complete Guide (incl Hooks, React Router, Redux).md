@@ -184,7 +184,8 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		- 執行後會產生物件
 	- How React Works #react/introduction
 	- Building a First Custom Component #react/ui/component
-		- Component 返回一個被 render 在頁面的 React element
+	  collapsed:: true
+		- React Component 返回一個被 render 在頁面的 React element
 		  id:: 634b89ff-6ccb-41db-ab9a-145620ebc869
 		- ```js
 		  // Function
@@ -210,7 +211,6 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 			- 小寫開頭是原生 XML
 			- 大寫開頭是自定義的 React Component
 	- Writing More Complex JSX Code #react/ui/jsx
-	  collapsed:: true
 		- JSX 語法透過 Babel 編譯後會等於 React.createElement() 語法
 		- ```js
 		    React.createElement(
@@ -265,6 +265,32 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		  ```
 	- Passing Data via "props" #react/ui/props
 		- 之前說明 ((634b89ff-6ccb-41db-ab9a-145620ebc869))
-		-
+		- 則 props 是 React Component 的數據輸入，它可以是任何型別就像 Function 參數
+		- 只接受讀取不可更改 (單向數據流)
+		- ```jsx
+		  
+		  function Welcome(props) {
+		    props.name = "hellow" // 不行
+		    return <h1>Hello, {props.name}</h1>;
+		  }
+		  
+		  ```
+		- > 小知識 💡
+		- ```jsx
+		  
+		  function Test(props) {
+		    const name = "Hello"
+		    return <div onClick={()=>{
+		      props.onClick(name)
+		    }} >Hello</div>;
+		  }
+		  function App() {
+		    const clickHandler = (value)=>{
+		      console.log(value)
+		    }
+		    return <Test onClick={clickHandler}/> ;
+		  }
+		  
+		  ```
 		-
 -
