@@ -31,7 +31,6 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		  [用 React 思考 – React (reactjs.org)](https://zh-hant.reactjs.org/docs/thinking-in-react.html)
 		  [React 術語表 – React (reactjs.org)](https://zh-hant.reactjs.org/docs/glossary.html#components)
 	- React Code Is Written In A "Declarative Way"! #react/introduction
-	  collapsed:: true
 		- 假設功能需求某數字需要被使用者手動增加
 		- ```js
 		  var root = document.querySelector("#root");
@@ -88,6 +87,7 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		- CDN 方式載入 HTML
 			- [官方介紹文件](https://reactjs.org/docs/add-react-to-a-website.html)
 		- 線上編譯 Coding 工具
+		  collapsed:: true
 			- [CodePen](https://codepen.io/pen?&editable=true&editors=0010)
 			- [CodeSandbox](https://codesandbox.io/s/new)
 			- [Glitch](https://glitch.com/edit/#!/remix/starter-react-template)
@@ -191,6 +191,11 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		  ```
 		- 執行後會產生物件
 	- How React Works #react/introduction
+		- JSX 撰寫 React Element 經過編譯等於 React.createElement 語法
+		- ```js
+		  var vanillaJSButton = document.createElement("button")
+		  var vanillaJSButton = React.createElement("button")
+		  ```
 	- Building a First Custom Component #react/ui/component
 		- React Component 返回一個被 render 在頁面的 React element
 		  id:: 634b89ff-6ccb-41db-ab9a-145620ebc869
