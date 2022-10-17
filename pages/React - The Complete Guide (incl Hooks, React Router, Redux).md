@@ -306,4 +306,9 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 			  
 			  <Welcome>Hello world!</Welcome>
 			  ```
+		- 構建應用程式裡我們會有多個 Component 會進行 Composition (組成)
+			- 大型 Component 抽離變成多個小型 Component，由多個小型組成大型 Component
+			- 小型 Component ( Dialog ) 透過 props 變成特別某一功能的 Component ( WelcomeDialog )
+		- > 延伸閱讀 💡
+		  React Component 之間使用非 UI 的功能，建議抽離成獨立 JavaScript 模組透過 import 使用。不需要在 Component 使用繼承過於複雜化它。
 		-
