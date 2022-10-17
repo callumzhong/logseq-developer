@@ -184,8 +184,8 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		- 執行後會產生物件
 	- How React Works #react/introduction
 	- Building a First Custom Component #react/ui/component
-	  collapsed:: true
 		- Component 返回一個被 render 在頁面的 React element
+		  id:: 634b89ff-6ccb-41db-ab9a-145620ebc869
 		- ```js
 		  // Function
 		  function Welcome() {
@@ -264,5 +264,7 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		  }
 		  ```
 	- Passing Data via "props" #react/ui/props
+		- 之前說明 ((634b89ff-6ccb-41db-ab9a-145620ebc869))
+		-
 		-
 -
