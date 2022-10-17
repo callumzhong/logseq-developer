@@ -102,7 +102,6 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		- react-dom 定義 DOM 與 server 渲染
 		- react-scripts 定義 scripts & configuration 配置
 	- Introducing JSX #react/ui/jsx
-	  collapsed:: true
 		- JavaScript XML 使用類似 XML/HTML 的語法， 它支援 ECMAScript，讓 XML/HTML 文本可以與 JavaScript / React 代碼共存，簡稱 JSX
 		- ```js
 		  const element = <h1>Hello World</h1>
@@ -189,7 +188,6 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		- 執行後會產生物件
 	- How React Works #react/introduction
 	- Building a First Custom Component #react/ui/component
-	  collapsed:: true
 		- React Component 返回一個被 render 在頁面的 React element
 		  id:: 634b89ff-6ccb-41db-ab9a-145620ebc869
 		- ```js
@@ -216,7 +214,6 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 			- 小寫開頭是原生 XML
 			- 大寫開頭是自定義的 React Component
 	- Writing More Complex JSX Code #react/ui/jsx
-	  collapsed:: true
 		- JSX 語法透過 Babel 編譯後會等於 React.createElement() 語法
 		- ```js
 		    React.createElement(
@@ -254,7 +251,6 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		  ```
 		-
 	- Adding Basic CSS Styling #react/ui/css
-	  collapsed:: true
 		- 引入 css 檔案 (全域)
 		- ```jsx
 		  import './ExpenseItem.css';
@@ -271,7 +267,6 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		  }
 		  ```
 	- Passing Data via "props" #react/ui/props
-	  collapsed:: true
 		- 之前說明 ((634b89ff-6ccb-41db-ab9a-145620ebc869))
 		- 則 props 是 React Component 的數據輸入，它可以是任何型別就像 Function 參數
 		- 只接受讀取不可更改 (單向數據流)
@@ -317,3 +312,4 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		- > 延伸閱讀 💡
 		  React Component 之間使用非 UI 的功能，建議抽離成獨立 JavaScript 模組透過 import 使用。不需要在 Component 使用繼承過於複雜化它。
 	- Working with "State" #react/state
+		-
