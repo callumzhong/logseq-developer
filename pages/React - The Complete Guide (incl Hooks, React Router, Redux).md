@@ -22,8 +22,9 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		- map 運用
 - Section 3 : React Basics & Working With Components
 	- What Are Component? And Why Is React All About Them? #react/introduction
-	  collapsed:: true
-		- React 用於構建使用者介面，以 UI 設計來說通常具有數個相同結構的視覺模型，需要進行分解撰寫可重複使用的代碼，其名稱為 Component
+		- React 用於構建使用者介面，以 UI 設計來說通常具有數個相同結構的視覺模型，需要進行分解撰寫可重複使用的代碼，名稱為 Component。
+			- 可用性
+			- 關注點分離
 		- >延伸閱讀 💡
 		  [用 React 思考 – React (reactjs.org)](https://zh-hant.reactjs.org/docs/thinking-in-react.html)
 		  [React 術語表 – React (reactjs.org)](https://zh-hant.reactjs.org/docs/glossary.html#components)
@@ -102,6 +103,7 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		- react-dom 定義 DOM 與 server 渲染
 		- react-scripts 定義 scripts & configuration 配置
 	- Introducing JSX #react/ui/jsx
+	  collapsed:: true
 		- JavaScript XML 使用類似 XML/HTML 的語法， 它支援 ECMAScript，讓 XML/HTML 文本可以與 JavaScript / React 代碼共存，簡稱 JSX
 		- ```js
 		  const element = <h1>Hello World</h1>
