@@ -112,7 +112,8 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		  const name = 'Josh Perez';
 		  const element = <h1>Hello, {name}</h1>;
 		  ```
-		- >💡 通常 element 不會被直接使用，而是在 component 中被返回
+		- >小知識 💡 
+		  通常 element 不會被直接使用，而是在 component 中被返回
 		- 元素內可以崁入 Expression
 		- ```js
 		  // 字串
@@ -123,7 +124,11 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		- HTML Tag 使用屬性純字串或變數
 		- ```
 		  const element = <img src={user.avatarUrl} />;
+		  const button = <button onClick={(e)=>{console.log(e)}} />;
 		  ```
+		- >小知識 💡
+		  屬性名稱採用小駝峰，部分屬性會遇到 JavaScript 保留字問題有所異動 (class => className) (for => htmlFor)
+		  https://zh-hant.reactjs.org/docs/dom-elements.html
 		- 與 XML 標籤相似，當標籤是空白允許使用 /> 關閉標籤
 		- ```js
 		  const element = (
@@ -311,4 +316,4 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 			- 小型 Component ( Dialog ) 透過 props 變成特別某一功能的 Component ( WelcomeDialog )
 		- > 延伸閱讀 💡
 		  React Component 之間使用非 UI 的功能，建議抽離成獨立 JavaScript 模組透過 import 使用。不需要在 Component 使用繼承過於複雜化它。
-		-
+	- Working with "State" #react/state
