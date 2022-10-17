@@ -154,7 +154,7 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 	- How React Works #react/introduction
 		- 我們用比較的方式說明 React Work 原理
 		- ```js
-		  // 1. Vanilla JS
+		  // 1. Vanilla JS (指令式)
 		  // 選擇實體 DOM (ID = root)
 		  var root = document.getElementById("root");
 		  // 產生 Button DOM
@@ -164,7 +164,7 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		  // 掛載 root DOM 的子節點
 		  root.append(button)
 		  
-		  // 2. React JS
+		  // 2. React JS (宣告式)
 		  // 引入函式
 		  import {createRoot} from "react-dom/client";
 		  // 產生 React element (通常是用 React Component render 返回 React element)
@@ -174,7 +174,7 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		  // 渲染
 		  root.render(button)
 		  ```
-		- 前面有提到指令式與宣告式程式
+		- React 負責生成、運行實際 DOM 指令更新畫面上的內容
 	- Building a First Custom Component #react/ui/component
 		- React Component 返回一個被 render 在頁面的 React element
 		  id:: 634b89ff-6ccb-41db-ab9a-145620ebc869
