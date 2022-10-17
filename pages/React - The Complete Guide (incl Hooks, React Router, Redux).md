@@ -22,8 +22,10 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		- map 運用
 - Section 3 : React Basics & Working With Components
 	- What Are Component? And Why Is React All About Them? #react/introduction
-		- React 用於構建使用者介面，以 UI 設計來說通常具有數個相同結構的視覺模型，需要進行分解撰寫可重複使用的代碼，名稱為 Component。
-			- 可用性
+		- Rea ct 用於構建使用者介面，以 UI 設計來說通常具有數個相同結構的視覺模型，需要進行分解撰寫可重複使用的代碼，名稱為 Component。
+		- 重點整理
+			- 單一職責
+			- 可重用性
 			- 關注點分離
 		- >延伸閱讀 💡
 		  [用 React 思考 – React (reactjs.org)](https://zh-hant.reactjs.org/docs/thinking-in-react.html)
@@ -314,4 +316,5 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		- > 延伸閱讀 💡
 		  React Component 之間使用非 UI 的功能，建議抽離成獨立 JavaScript 模組透過 import 使用。不需要在 Component 使用繼承過於複雜化它。
 	- Working with "State" #react/state
+		-
 		-
