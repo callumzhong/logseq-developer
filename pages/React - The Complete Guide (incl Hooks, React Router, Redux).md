@@ -206,14 +206,15 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		  // 2. React JS
 		  // 引入函式
 		  import ReactDOM from "react-dom/client";
-		  // 產生 React element
+		  // 產生 React element (通常是用 React Component render 返回 React element)
 		  var button = <button>按鈕</button>
 		  // 在實體 DOM 節點上建立 React 根節點
 		  var root = ReactDOM.createRoot(document.getElementById("root"))
 		  // 渲染
 		  root.render(button)
 		  ```
-		- > 注意
+		- React 使用 JSX 語法定義有 "button" 有 "按鈕的"
+		-
 	- Building a First Custom Component #react/ui/component
 		- React Component 返回一個被 render 在頁面的 React element
 		  id:: 634b89ff-6ccb-41db-ab9a-145620ebc869
