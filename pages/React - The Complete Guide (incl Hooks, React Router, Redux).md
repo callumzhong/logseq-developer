@@ -302,8 +302,7 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 	- Working with "State" #react/state
 		- 設計 Component 時會有某些數據是需要被儲存，當使用者進行操作導致 "數據要被更新"。會==安排更新排程==，這種儲存稱為狀態且屬於 Component 私有的。
 		- > 💡 ==安排更新排程==
-		  這裡意思是 State 更新是異步的，如果內容不在畫面上將會延遲與之相關的任何邏輯，如果數據更新速度快於畫面幀速率的話，會合併並批量更新。優先考慮來自使用者互動的邏輯，而不是不太重要的非 UI
-		-
+		  這裡意思是 State 更新是異步的，如果內容不在畫面上將會延遲與之相關的任何邏輯，如果數據更新速度快於畫面幀速率的話，會合併並批量更新。優先考慮來自使用者互動的事件，而不是不太重要的幕後事件 ( 例如渲染剛剛從網路載入的新內容) 以避免丟幀。
 		- ```js
 		  const [state, setState] = useState(initialState);
 		  ```
