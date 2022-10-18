@@ -9,7 +9,7 @@
   :block/updated-at 1665936036487}
  {:block/name "2022-10-18",
   :block/created-at 1666022436474,
-  :block/updated-at 1666081336545}
+  :block/updated-at 1666081834181}
  {:block/name "a",
   :block/created-at 1661538426559,
   :block/updated-at 1661538426559}
@@ -124,7 +124,10 @@
   :block/updated-at 1665983874732}
  {:block/name "react/terminology",
   :block/created-at 1666062330177,
-  :block/updated-at 1666062330177}
+  :block/updated-at 1666081960886}
+ {:block/name "react/terminology/data-binding",
+  :block/created-at 1666081830162,
+  :block/updated-at 1666081830162}
  {:block/name "react/ui",
   :block/created-at 1665894813301,
   :block/updated-at 1665894813301}

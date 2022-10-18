@@ -266,8 +266,7 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		  }
 		  
 		  ```
-		- > 小知識 💡
-		  透過 funciton 把資料往上傳遞
+		- > 💡 透過 funciton 把資料往上傳遞
 		- ```jsx
 		  function Test(props) {
 		    const name = "Hello"
@@ -297,8 +296,7 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		- 構建應用程式裡我們會有多個 Component 會進行 Composition (組成)
 			- 大型 Component 抽離變成多個小型 Component，由多個小型組成大型 Component
 			- 小型 Component ( Dialog ) 透過 props 變成特別某一功能的 Component ( WelcomeDialog )
-		- > 延伸閱讀 💡
-		  React Component 之間使用非 UI 的功能，建議抽離成獨立 JavaScript 模組透過 import 使用。不需要在 Component 使用繼承過於複雜化它。
+		- > 💡 React Component 之間使用非 UI 的功能，建議抽離成獨立 JavaScript 模組透過 import 使用。不需要在 Component 使用繼承過於複雜化它。
 	- Working with "State" #react/state
 		- 設計 Component 時會有某些數據是需要被儲存，當使用者進行操作導致 "數據要被更新"。會==安排更新排程==，這種儲存稱為狀態且屬於 Component 私有的。
 		- > 💡 ==安排更新排程==
@@ -312,7 +310,4 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		  
 		  setState(state=>state+1)
 		  ```
-		-
-		- > 延伸閱讀 💡
-		  [使用 State Hook – React (reactjs.org)](https://zh-hant.reactjs.org/docs/hooks-state.html)
 	-
