@@ -9,7 +9,7 @@
   :block/updated-at 1665936036487}
  {:block/name "2022-10-18",
   :block/created-at 1666022436474,
-  :block/updated-at 1666086737242}
+  :block/updated-at 1666088719681}
  {:block/name "a",
   :block/created-at 1661538426559,
   :block/updated-at 1661538426559}
@@ -49,21 +49,18 @@
  {:block/name "favorites",
   :block/created-at 1661538426559,
   :block/updated-at 1661538426559}
+ {:block/name "fronted-developer",
+  :block/created-at 1666088693304,
+  :block/updated-at 1666088693304}
+ {:block/name "fronted-developer/interview",
+  :block/created-at 1666088693305,
+  :block/updated-at 1666088693305}
+ {:block/name "fronted-developer/interview/html",
+  :block/created-at 1666088693302,
+  :block/updated-at 1666088693302}
  {:block/name "frontend developer",
   :block/created-at 1665896096093,
   :block/updated-at 1665896096093}
- {:block/name "frontend developer/interview",
-  :block/created-at 1666084242743,
-  :block/updated-at 1666084242743}
- {:block/name "frontend developer/interview/react",
-  :block/created-at 1666084242739,
-  :block/updated-at 1666084242739}
- {:block/name "frontend developer/sdsad",
-  :block/created-at 1666084127235,
-  :block/updated-at 1666084127235}
- {:block/name "frontend developer/sdsad/sda",
-  :block/created-at 1666084127230,
-  :block/updated-at 1666084127230}
  {:block/name "frontend-developer",
   :block/created-at 1666084262490,
   :block/updated-at 1666084262490}
@@ -74,8 +71,8 @@
   :block/created-at 1666085477057,
   :block/updated-at 1666085477057}
  {:block/name "frontend-developer/interview/react",
-  :block/created-at 1666084262488,
-  :block/updated-at 1666084262488}
+  :block/created-at 1666088604245,
+  :block/updated-at 1666088604245}
  {:block/name "git 指令",
   :block/created-at 1665745412295,
   :block/updated-at 1665746152454}
@@ -106,6 +103,9 @@
  {:block/name "javascript/syntax/function",
   :block/created-at 1665783201014,
   :block/updated-at 1665783201014}
+ {:block/name "javascript/type",
+  :block/created-at 1665783524395,
+  :block/updated-at 1665783524395}
  {:block/name "javascript/types",
   :block/created-at 1665783525210,
   :block/updated-at 1665783525210}
@@ -144,8 +144,8 @@
   :block/created-at 1665784938941,
   :block/updated-at 1665784938941}
  {:block/name "react/state",
-  :block/created-at 1665983874732,
-  :block/updated-at 1665983874732}
+  :block/created-at 1666088604485,
+  :block/updated-at 1666088604485}
  {:block/name "react/terminology",
   :block/created-at 1666062330177,
   :block/updated-at 1666081960886}
@@ -174,8 +174,8 @@
   :block/created-at 1665894911280,
   :block/updated-at 1665894911280}
  {:block/name "react/ui/keys",
-  :block/created-at 1666082914769,
-  :block/updated-at 1666082914769}
+  :block/created-at 1666088605563,
+  :block/updated-at 1666088605563}
  {:block/name "react/ui/portal",
   :block/created-at 1666083609975,
   :block/updated-at 1666083609975}
@@ -197,6 +197,9 @@
  {:block/name "waiting",
   :block/created-at 1661538426559,
   :block/updated-at 1661538426559}
+ {:block/name "web development with googles go programming language",
+  :block/created-at 1665778972101,
+  :block/updated-at 1665895942869}
  {:block/name "面試須知",
   :block/created-at 1664124133261, 
   :block/updated-at 1665533303079}]
