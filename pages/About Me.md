@@ -9,11 +9,20 @@
 	- 有問題請在 [Issues](https://github.com/callumzhong/logsea-developer/issues) 提交
 	- 全文搜尋請使用 `Ctrl + K`
 -
-- 範疇
+- 筆者改使用 Logseq 服務，正在搬移筆記到這邊...
+- 筆記工作流可參考 :  [2022-42 Logseq 動態索引 | Callum's Blog (callumzhong.github.io)](https://callumzhong.github.io/2022/10/16/weekly)
+-
+- 預計筆記範疇
 	- HTML
 	- CSS
-	- [[javascript]]
+	- JavaScript
 	- Git
-	- [[react]]
+	- React
+	- Next.js
+	- Vue
 	- Node.js
+	- Deno
 	- Express
+	- React Native
+	- Flutter
+	- 其他有興趣的項目
