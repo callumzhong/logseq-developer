@@ -9,7 +9,7 @@
   :block/updated-at 1665936036487}
  {:block/name "2022-10-18",
   :block/created-at 1666022436474,
-  :block/updated-at 1666084980554}
+  :block/updated-at 1666085477062}
  {:block/name "a",
   :block/created-at 1661538426559,
   :block/updated-at 1661538426559}
@@ -69,19 +69,13 @@
   :block/updated-at 1666084262490}
  {:block/name "frontend-developer/interview",
   :block/created-at 1666084262493,
-  :block/updated-at 1666084262493}
+  :block/updated-at 1666085567688}
+ {:block/name "frontend-developer/interview/general",
+  :block/created-at 1666085477057,
+  :block/updated-at 1666085477057}
  {:block/name "frontend-developer/interview/react",
   :block/created-at 1666084262488,
   :block/updated-at 1666084262488}
- {:block/name "frontend-developer/interview/react]]",
-  :block/created-at 1666084270484,
-  :block/updated-at 1666084270484}
- {:block/name "frontend-developer/sdsad",
-  :block/created-at 1666084262755,
-  :block/updated-at 1666084262755}
- {:block/name "frontend-developer/sdsad/sda",
-  :block/created-at 1666084263450,
-  :block/updated-at 1666084263450}
  {:block/name "git 指令",
   :block/created-at 1665745412295,
   :block/updated-at 1665746152454}
