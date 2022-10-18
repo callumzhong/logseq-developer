@@ -27,14 +27,13 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 			- 單一職責
 			- 可重用性
 			- 關注點分離
-		- >延伸閱讀 💡
-		  [用 React 思考 – React (reactjs.org)](https://zh-hant.reactjs.org/docs/thinking-in-react.html)
+		- >[用 React 思考 – React (reactjs.org)](https://zh-hant.reactjs.org/docs/thinking-in-react.html)
 		  [React 術語表 – React (reactjs.org)](https://zh-hant.reactjs.org/docs/glossary.html#components)
 	- React Code Is Written In A "Declarative Way"! #react/introduction
 		- 指令式程式設計(Imperative Programming) 告知細節得到結果
-		- > 💡 程式演算法過程由自己規劃處理 (程式繁瑣難以除錯)
+		- > 程式演算法過程由自己規劃處理 (程式繁瑣難以除錯)
 		- 宣告式程式設計，告知結果細節由封裝好的 React 處理
-		- > 💡 程式演算過程由已封裝的函式處理 (程式易讀容易除錯)
+		- >程式演算過程由已封裝的函式處理 (程式易讀容易除錯)
 	- Creating a new React Project #react/install
 	  collapsed:: true
 		- CSR
@@ -66,7 +65,6 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		- react-dom 定義 DOM 與 server 渲染
 		- react-scripts 定義 scripts & configuration 配置
 	- Introducing JSX #react/ui/jsx
-	  collapsed:: true
 		- JavaScript XML 使用類似 XML/HTML 的語法， 它支援 ECMAScript，讓 XML/HTML 文本可以與 JavaScript / React 代碼共存，簡稱 JSX
 		- ```js
 		  const element = <h1>Hello World</h1>
@@ -76,8 +74,7 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		  const name = 'Josh Perez';
 		  const element = <h1>Hello, {name}</h1>;
 		  ```
-		- >小知識 💡 
-		  通常 element 不會被直接使用，而是在 component 中被返回
+		- >通常 element 不會被直接使用，而是在 component 中被返回
 		- 元素內可以崁入 Expression
 		- ```js
 		  // 字串
@@ -90,8 +87,7 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		  const element = <img src={user.avatarUrl} />;
 		  const button = <button onClick={(e)=>{console.log(e)}} />;
 		  ```
-		- >小知識 💡
-		  屬性名稱採用小駝峰，部分屬性會遇到 JavaScript 保留字問題有所異動 (class => className) (for => htmlFor)
+		- >屬性名稱採用小駝峰，部分屬性會遇到 JavaScript 保留字問題有所異動
 		  https://zh-hant.reactjs.org/docs/dom-elements.html
 		- 與 XML 標籤相似，當標籤是空白允許使用 /> 關閉標籤
 		- ```js
@@ -266,8 +262,9 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		  }
 		  
 		  ```
-		- > 💡 透過 funciton 把資料往上傳遞
+		- 可以使用 funciton 把資料往上傳遞
 		- ```jsx
+		  
 		  function Test(props) {
 		    const name = "Hello"
 		    const clickHandler = ()=>{
@@ -296,11 +293,10 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		- 構建應用程式裡我們會有多個 Component 會進行 Composition (組成)
 			- 大型 Component 抽離變成多個小型 Component，由多個小型組成大型 Component
 			- 小型 Component ( Dialog ) 透過 props 變成特別某一功能的 Component ( WelcomeDialog )
-		- > 💡 React Component 之間使用非 UI 的功能，建議抽離成獨立 JavaScript 模組透過 import 使用。不需要在 Component 使用繼承過於複雜化它。
+		- > React Component 之間使用非 UI 的功能，建議抽離成獨立 JavaScript 模組透過 import 使用。不需要在 Component 使用繼承過於複雜化它。
 	- Working with "State" #react/state
 		- 設計 Component 時會有某些數據是需要被儲存，當使用者進行操作導致 "數據要被更新"。會==安排更新排程==，這種儲存稱為狀態且屬於 Component 私有的。
-		- > 💡 ==安排更新排程==
-		  這裡意思是 State 更新是異步的，如果內容不在畫面上將會延遲與之相關的任何邏輯，如果數據更新速度快於畫面幀速率的話，會合併並批量更新。優先考慮來自使用者互動的事件，而不是不太重要的幕後事件 ( 例如渲染剛剛從網路載入的新內容) 以避免丟幀。
+		- > 這裡意思是 State 更新是異步的，如果內容不在畫面上將會延遲與之相關的任何邏輯，如果數據更新速度快於畫面幀速率的話，會合併並批量更新。優先考慮來自使用者互動的事件，而不是不太重要的幕後事件 ( 例如渲染剛剛從網路載入的新內容) 以避免丟幀。
 		- ```js
 		  const [state, setState] = useState(initialState);
 		  ```
