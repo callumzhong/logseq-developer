@@ -1,4 +1,4 @@
-- Hi，我是 Callum
+- Hi，我是 Callum 是一位 Frontend Developer
 	- 部落格 [ Callum 's Blog](https://callumzhong.github.io/)
 	- 程式 [Callum's Github](https://github.com/callumzhong)
 	- Youtube [Callum's Youtbe](https://www.youtube.com/channel/UCO-o9tu621yfNT9ihKgLvOA)
@@ -9,10 +9,10 @@
 	- 有問題請在 [Issues](https://github.com/callumzhong/logsea-developer/issues) 提交
 	- 全文搜尋請使用 `Ctrl + K`
 -
-- 筆者改使用 Logseq 服務，正在搬移筆記到這邊...
-- 筆記工作流可參考 :  [2022-42 Logseq 動態索引 | Callum's Blog (callumzhong.github.io)](https://callumzhong.github.io/2022/10/16/weekly)
+- 筆者從 Joplin 改用 Logseq 筆記正在搬家，原因可以看使用技巧文章
+- 使用技巧 :  [2022-42 Logseq 動態索引 | Callum's Blog (callumzhong.github.io)](https://callumzhong.github.io/2022/10/16/weekly)
 -
-- 預計筆記範疇
+- 預計內容如下
 	- HTML
 	- CSS
 	- JavaScript
@@ -25,4 +25,3 @@
 	- Express
 	- React Native
 	- Flutter
-	- 其他有興趣的項目
