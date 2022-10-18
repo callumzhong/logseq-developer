@@ -65,14 +65,20 @@
   :block/created-at 1665896096093,
   :block/updated-at 1665896096093}
  {:block/name "frontend-developer",
-  :block/created-at 1666084262490,
-  :block/updated-at 1666084262490}
+  :block/created-at 1666088693304,
+  :block/updated-at 1666088693304}
  {:block/name "frontend-developer/interview",
   :block/created-at 1666084262493,
   :block/updated-at 1666085567688}
+ {:block/name "frontend-developer/interview/css",
+  :block/created-at 1666093552821,
+  :block/updated-at 1666093552821}
  {:block/name "frontend-developer/interview/general",
   :block/created-at 1666085477057,
   :block/updated-at 1666085477057}
+ {:block/name "frontend-developer/interview/html",
+  :block/created-at 1666093552389,
+  :block/updated-at 1666093552389}
  {:block/name "frontend-developer/interview/react",
   :block/created-at 1666088604245,
   :block/updated-at 1666088604245}

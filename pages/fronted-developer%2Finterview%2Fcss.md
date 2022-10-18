@@ -1,3 +1,3 @@
-title:: fronted-developer/interview/css
+title:: frontend-developer/interview/css
 
 -
