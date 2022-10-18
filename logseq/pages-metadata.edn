@@ -9,7 +9,7 @@
   :block/updated-at 1665936036487}
  {:block/name "2022-10-18",
   :block/created-at 1666022436474,
-  :block/updated-at 1666088719681}
+  :block/updated-at 1666093361940}
  {:block/name "a",
   :block/created-at 1661538426559,
   :block/updated-at 1661538426559}
@@ -55,6 +55,9 @@
  {:block/name "fronted-developer/interview",
   :block/created-at 1666088693305,
   :block/updated-at 1666088693305}
+ {:block/name "fronted-developer/interview/css",
+  :block/created-at 1666093361935,
+  :block/updated-at 1666093361935}
  {:block/name "fronted-developer/interview/html",
   :block/created-at 1666088693302,
   :block/updated-at 1666088693302}
