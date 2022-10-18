@@ -306,4 +306,12 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		- ```js
 		  const [state, setState] = useState(initialState);
 		  ```
+		- ```js
+		  // 注意使用 setState 因為是異步事件 如果要依賴當前 state 
+		  // 請使用 function 帶參數方式更新
+		  
+		  setState(state=>state+1)
+		  ```
+		- > 延伸閱讀 💡
+		  [使用 State Hook – React (reactjs.org)](https://zh-hant.reactjs.org/docs/hooks-state.html)
 		-
