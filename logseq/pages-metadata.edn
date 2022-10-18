@@ -9,7 +9,7 @@
   :block/updated-at 1665936036487}
  {:block/name "2022-10-18",
   :block/created-at 1666022436474,
-  :block/updated-at 1666082572386}
+  :block/updated-at 1666082724036}
  {:block/name "a",
   :block/created-at 1661538426559,
   :block/updated-at 1661538426559}
@@ -112,7 +112,7 @@
  {:block/name
   "react - the complete guide (incl hooks, react router, redux)",
   :block/created-at 1665781519053,
-  :block/updated-at 1666082380093}
+  :block/updated-at 1666082961257}
  {:block/name "react/install",
   :block/created-at 1665889049070,
   :block/updated-at 1665889049070}
@@ -122,36 +122,18 @@
  {:block/name "react/state",
   :block/created-at 1665983874732,
   :block/updated-at 1665983874732}
- {:block/name "react/termi",
-  :block/created-at 1666082527252,
-  :block/updated-at 1666082527252}
  {:block/name "react/terminology",
   :block/created-at 1666062330177,
   :block/updated-at 1666081960886}
- {:block/name "react/terminology/controlled",
-  :block/created-at 1666082550367,
-  :block/updated-at 1666082550367}
- {:block/name "react/terminology/controlled&",
-  :block/created-at 1666082554000,
-  :block/updated-at 1666082554000}
- {:block/name "react/terminology/controlled&un",
-  :block/created-at 1666082556335,
-  :block/updated-at 1666082556335}
- {:block/name "react/terminology/controlled&unc",
-  :block/created-at 1666082558024,
-  :block/updated-at 1666082558024}
- {:block/name "react/terminology/controlled&uncon",
-  :block/created-at 1666082559938,
-  :block/updated-at 1666082559938}
  {:block/name "react/terminology/controlled&uncontrolled",
   :block/created-at 1666082563027,
   :block/updated-at 1666082563027}
- {:block/name "react/terminology/controlled&uncontroller",
-  :block/created-at 1666082562210,
-  :block/updated-at 1666082562210}
  {:block/name "react/terminology/data-binding",
   :block/created-at 1666081830162,
   :block/updated-at 1666081830162}
+ {:block/name "react/terminology/stateless&stateful",
+  :block/created-at 1666082685519,
+  :block/updated-at 1666082685519}
  {:block/name "react/ui",
   :block/created-at 1665894813301,
   :block/updated-at 1665894813301}
@@ -167,6 +149,9 @@
  {:block/name "react/ui/jsx",
   :block/created-at 1665894911280,
   :block/updated-at 1665894911280}
+ {:block/name "react/ui/keys",
+  :block/created-at 1666082914769,
+  :block/updated-at 1666082914769}
  {:block/name "react/ui/props",
   :block/created-at 1665894862694,
   :block/updated-at 1665894862694}

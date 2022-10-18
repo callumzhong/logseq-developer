@@ -22,14 +22,17 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		- map 運用
 - Section 3 : React Basics & Working With Components
 	- What Are Component? And Why Is React All About Them? #react/introduction
+	  collapsed:: true
 		- Rea ct 用於構建使用者介面，以 UI 設計來說通常具有數個相同結構的視覺模型，需要進行分解撰寫可重複使用的代碼，名稱為 Component。
 		- 重點整理
+		  collapsed:: true
 			- 單一職責
 			- 可重用性
 			- 關注點分離
 		- >[用 React 思考 – React (reactjs.org)](https://zh-hant.reactjs.org/docs/thinking-in-react.html)
 		  [React 術語表 – React (reactjs.org)](https://zh-hant.reactjs.org/docs/glossary.html#components)
 	- React Code Is Written In A "Declarative Way"! #react/introduction
+	  collapsed:: true
 		- 指令式程式設計(Imperative Programming) 告知細節得到結果
 		- > 程式演算法過程由自己規劃處理 (程式繁瑣難以除錯)
 		- 宣告式程式設計，告知結果細節由封裝好的 React 處理
@@ -37,14 +40,19 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 	- Creating a new React Project #react/install
 	  collapsed:: true
 		- CSR
+		  collapsed:: true
 			- [create-react-app-github](https://github.com/facebook/create-react-app)
 		- 混合(SSG and SSR)
+		  collapsed:: true
 			- [Nextjs](https://nextjs.org/)
 		- 靜態專案
+		  collapsed:: true
 			- [Gatsby](https://www.gatsbyjs.com/)
 			- [docusaurus](https://docusaurus.io/)
+			  collapsed:: true
 				- [與其他工具比較介紹](https://docusaurus.io/zh-CN/docs#comparison-with-other-tools)
 		- CDN 方式載入 HTML
+		  collapsed:: true
 			- [官方介紹文件](https://reactjs.org/docs/add-react-to-a-website.html)
 		- 線上編譯 Coding 工具
 		  collapsed:: true
@@ -53,6 +61,7 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 			- [Glitch](https://glitch.com/edit/#!/remix/starter-react-template)
 			- [Stackblitz](https://stackblitz.com/edit/react-jpp86w)
 		- reference
+		  collapsed:: true
 			- https://zh-hant.reactjs.org/docs/create-a-new-react-app.html
 	- Analyzing a Standard React Project #react/install
 	  collapsed:: true
@@ -65,6 +74,7 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		- react-dom 定義 DOM 與 server 渲染
 		- react-scripts 定義 scripts & configuration 配置
 	- Introducing JSX #react/ui/jsx
+	  collapsed:: true
 		- JavaScript XML 使用類似 XML/HTML 的語法， 它支援 ECMAScript，讓 XML/HTML 文本可以與 JavaScript / React 代碼共存，簡稱 JSX
 		- ```js
 		  const element = <h1>Hello World</h1>
@@ -148,6 +158,7 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		  ```
 		- 執行後會產生物件
 	- How React Works #react/introduction
+	  collapsed:: true
 		- 我們用比較的方式說明 React Work 原理
 		- ```js
 		  // 1. Vanilla JS (指令式)
@@ -172,6 +183,7 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		  ```
 		- React 負責生成、運行實際 DOM 指令更新畫面上的內容
 	- Building a First Custom Component #react/ui/component
+	  collapsed:: true
 		- React Component 返回一個被 render 在頁面的 React element
 		  id:: 634b89ff-6ccb-41db-ab9a-145620ebc869
 		- ```js
@@ -192,12 +204,14 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		  /components/ExpenseItem.jsx
 		  ```
 		- Component render React element 所以可以被其他 Component 引用
-		- ```jsx
+		- collapsed:: true
+		  ```jsx
 		  <Todo></Todo>
 		  ```
 			- 小寫開頭是原生 XML
 			- 大寫開頭是自定義的 React Component
 	- Writing More Complex JSX Code #react/ui/jsx
+	  collapsed:: true
 		- JSX 語法透過 Babel 編譯後會等於 React.createElement() 語法
 		- ```js
 		    React.createElement(
@@ -207,6 +221,7 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		    )
 		  ```
 		- type 參數可接受類型
+		  collapsed:: true
 			- HTML tag 字串 (例如: "div", "span")
 			- React Component
 			- React Fragment type #react/ui/fragments
@@ -235,6 +250,7 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		  ```
 		-
 	- Adding Basic CSS Styling #react/ui/css
+	  collapsed:: true
 		- 引入 css 檔案 (全域)
 		- ```jsx
 		  import './ExpenseItem.css';
@@ -251,6 +267,7 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		  }
 		  ```
 	- Passing Data via "props" #react/ui/props
+	  collapsed:: true
 		- 之前說明 ((634b89ff-6ccb-41db-ab9a-145620ebc869))
 		- 則 props 是 React Component 的數據輸入，它可以是任何型別就像 Function 參數
 		- 只接受讀取不可更改 (單向數據流)
@@ -282,7 +299,9 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		  ```
 		-
 	- The Concept of "Composition" ("children props") #react/ui/props #react/ui/component
+	  collapsed:: true
 		- props 有特殊的屬性 children 是 Component 用來崁入標記之間的內容
+		  collapsed:: true
 			- ```jsx
 			  function Welcome(props) {
 			    return <p>{props.children}</p>;
@@ -291,10 +310,12 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 			  <Welcome>Hello world!</Welcome>
 			  ```
 		- 構建應用程式裡我們會有多個 Component 會進行 Composition (組成)
+		  collapsed:: true
 			- 大型 Component 抽離變成多個小型 Component，由多個小型組成大型 Component
 			- 小型 Component ( Dialog ) 透過 props 變成特別某一功能的 Component ( WelcomeDialog )
 		- > React Component 之間使用非 UI 的功能，建議抽離成獨立 JavaScript 模組透過 import 使用。不需要在 Component 使用繼承過於複雜化它。
 	- Working with "State" #react/state
+	  collapsed:: true
 		- 設計 Component 時會有某些數據是需要被儲存，當使用者進行操作導致 "數據要被更新"。會==安排更新排程==，這種儲存稱為狀態且屬於 Component 私有的。
 		- > 這裡意思是 State 更新是異步的，如果內容不在畫面上將會延遲與之相關的任何邏輯，如果數據更新速度快於畫面幀速率的話，會合併並批量更新。優先考慮來自使用者互動的事件，而不是不太重要的幕後事件 ( 例如渲染剛剛從網路載入的新內容) 以避免丟幀。
 		- ```js
@@ -306,4 +327,8 @@ Source Code: [https://github.com/GoesToEleven/golang-web-dev](https://github.com
 		  
 		  setState(state=>state+1)
 		  ```
+	- Understanding "Keys" #react/ui/keys
+		- 渲染 List 會有多個 React element 
+		  id:: 634e6862-e77d-4103-8618-b76a8cc307b0
+		- 需要 key 幫助 React 辨識項目是否改變、增加、刪除
 	-
