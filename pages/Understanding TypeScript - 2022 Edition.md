@@ -4,7 +4,8 @@ tags:: course #programming #frontend-developer
   Url: [Understanding TypeScript - 2022 Edition | Udemy](https://www.udemy.com/course/understanding-typescript/learn/lecture/17751414)
 - Section 1 : Getting Started
 	- What Is TypeScript & Why Should You Use It?
-		- TypeScript  是基於 JavaScript 強型別的程式語言
-		- TypeScript  會編譯成 JavaScript 可運行在任何接受 JavaScript 的環境
-		- 在編譯 JavaScript 時加入
+		- >[TypeScript: JavaScript With Syntax For Types. (typescriptlang.org)](https://www.typescriptlang.org/)
+		- TypeScript 是 [JavaScript](https://zh.wikipedia.org/wiki/JavaScript) 的嚴格語法超集，提供了可選的靜態型別檢查。
 		-
+-
+-
