@@ -52,21 +52,6 @@
  {:block/name "favorites",
   :block/created-at 1661538426559,
   :block/updated-at 1661538426559}
- {:block/name "fronted-developer",
-  :block/created-at 1666088693304,
-  :block/updated-at 1666088693304}
- {:block/name "fronted-developer/interview",
-  :block/created-at 1666088693305,
-  :block/updated-at 1666088693305}
- {:block/name "fronted-developer/interview/css",
-  :block/created-at 1666093361935,
-  :block/updated-at 1666093361935}
- {:block/name "fronted-developer/interview/html",
-  :block/created-at 1666088693302,
-  :block/updated-at 1666088693302}
- {:block/name "frontend developer",
-  :block/created-at 1665896096093,
-  :block/updated-at 1665896096093}
  {:block/name "frontend-developer",
   :block/created-at 1666088693304,
   :block/updated-at 1666088693304}
@@ -221,6 +206,9 @@
  {:block/name "todo",
   :block/created-at 1662695819949,
   :block/updated-at 1662695819949}
+ {:block/name "understanding typescript - 2022 edition",
+  :block/created-at 1666179939401,
+  :block/updated-at 1666180098507}
  {:block/name "wait",
   :block/created-at 1661538426559,
   :block/updated-at 1661538426559}
