@@ -100,15 +100,6 @@
  {:block/name "git 指令",
   :block/created-at 1665745412295,
   :block/updated-at 1665746152454}
- {:block/name "golang",
-  :block/created-at 1665779862775,
-  :block/updated-at 1665779862775}
- {:block/name "golang/init",
-  :block/created-at 1665779869418,
-  :block/updated-at 1665779869418}
- {:block/name "golang/template",
-  :block/created-at 1665779862772,
-  :block/updated-at 1665779862772}
  {:block/name "in-progress",
   :block/created-at 1661538426559,
   :block/updated-at 1661538426559}
@@ -209,9 +200,6 @@
  {:block/name "software development",
   :block/created-at 1665895942869,
   :block/updated-at 1665895942869}
- {:block/name "todd mcleod",
-  :block/created-at 1665779046622,
-  :block/updated-at 1665779046622}
  {:block/name "todo",
   :block/created-at 1662695819949,
   :block/updated-at 1662695819949}
@@ -221,24 +209,15 @@
  {:block/name "typescript/introduction",
   :block/created-at 1666182128435,
   :block/updated-at 1666182128435}
- {:block/name "typescript/type",
-  :block/created-at 1666413612475,
-  :block/updated-at 1666413612475}
  {:block/name "typescript/types",
   :block/created-at 1666413613778,
   :block/updated-at 1666414540370}
- {:block/name "typescript/types/a",
-  :block/created-at 1666420560554,
-  :block/updated-at 1666420560554}
  {:block/name "typescript/types/array",
   :block/created-at 1666416000392,
   :block/updated-at 1666416000392}
  {:block/name "typescript/types/enums",
   :block/created-at 1666419333455,
   :block/updated-at 1666419333455}
- {:block/name "typescript/types/eums",
-  :block/created-at 1666419328327,
-  :block/updated-at 1666419328327}
  {:block/name "typescript/types/function",
   :block/created-at 1666422212987,
   :block/updated-at 1666422212987}
@@ -254,15 +233,12 @@
  {:block/name "typescript/types/type",
   :block/created-at 1666421788138,
   :block/updated-at 1666421788138}
- {:block/name "typescript/types/union",
-  :block/created-at 1666420572386,
-  :block/updated-at 1666420572386}
  {:block/name "typescript/types/unkwon",
   :block/created-at 1666425527227,
   :block/updated-at 1666425527227}
  {:block/name "understanding typescript - 2022 edition",
   :block/created-at 1666179939401,
-  :block/updated-at 1666425527231}
+  :block/updated-at 1666425984223}
  {:block/name "wait",
   :block/created-at 1661538426559,
   :block/updated-at 1661538426559}

@@ -153,5 +153,25 @@ tags:: course #programming #frontend-developer
 		- >💡 注意
 		  不是強制你傳入不回傳任何值的 function，只是告知不會將回傳值做任何使用。
 	- The "unknown" Type #typescript/types/unkwon
-		- unknow 是未知
+		- unknow 表示任何值但比 any 更嚴謹的類型
+		- ```ts
+		  let userInputByKnown:unknown;
+		  let userInputByAny:any;
+		  let userName:string;
+		  
+		  userInputByKnown = "name";
+		  userInputByAny = 'name'
+		  // ERROR: 類型 'unknown' 不可指派給類型 'string'
+		  userName = userInputByKnown;
+		  
+		  // 透過檢查式確定是 string
+		  if(typeof userInputByKnown === 'string'){
+		    // PASS
+		    userName = userInputByKnown;
+		  }
+		  // PASS
+		  userName = userInputByAny
+		  ```
+		- any 可以未經檢查賦予其他變數
+		- unknow 則不行
 	-
