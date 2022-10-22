@@ -102,6 +102,11 @@ tags:: course #programming #frontend-developer
 		  };
 		  
 		  ```
-	-
+	- Type Aliases & Object Types #typescript/types/type
+		- type 是 typescript 提供的型別
+		- ```ts
+		  type User = { name: string; age: number };
+		  const u1: User = { name: 'Name', age: 30 }; // this works!
+		  ```
 	-
 		-

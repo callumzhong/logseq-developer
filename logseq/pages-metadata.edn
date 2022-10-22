@@ -248,12 +248,15 @@
  {:block/name "typescript/types/string",
   :block/created-at 1666415704081,
   :block/updated-at 1666415704081}
+ {:block/name "typescript/types/type",
+  :block/created-at 1666421788138,
+  :block/updated-at 1666421788138}
  {:block/name "typescript/types/union",
   :block/created-at 1666420572386,
   :block/updated-at 1666420572386}
  {:block/name "understanding typescript - 2022 edition",
   :block/created-at 1666179939401,
-  :block/updated-at 1666420601103}
+  :block/updated-at 1666421821835}
  {:block/name "wait",
   :block/created-at 1661538426559,
   :block/updated-at 1661538426559}
