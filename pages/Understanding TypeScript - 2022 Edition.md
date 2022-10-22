@@ -66,4 +66,37 @@ tags:: course #programming #frontend-developer
 		  }
 		  ```
 	- Working with Enums #typescript/types/enums
-		-
+		- 列舉是 TypeScript 提供的類型
+		- ```ts
+		  // TypeScript
+		  enum Role {
+		    ADMIN = "ADMIN",
+		    READ_ONLY = 100,
+		    AUTHOR = "AUTHOR",
+		  }
+		  
+		  const person = {
+		    name: "Maximilian",
+		    age: 30,
+		    hobbies: ["Sports", "Cooking"],
+		    role: Role.ADMIN,
+		  };
+		  ```
+		- ```js
+		  // JavaScript
+		  var Role;
+		  (function (Role) {
+		      Role["ADMIN"] = "ADMIN";
+		      Role[Role["READ_ONLY"] = 100] = "READ_ONLY";
+		      Role["AUTHOR"] = "AUTHOR";
+		  })(Role || (Role = {}));
+		  
+		  var person = {
+		      name: "Maximilian",
+		      age: 30,
+		      hobbies: ["Sports", "Cooking"],
+		      role: Role.ADMIN
+		  };
+		  
+		  ```
+	- The "any" Type
