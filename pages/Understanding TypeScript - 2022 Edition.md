@@ -58,7 +58,12 @@ tags:: course #programming #frontend-developer
 		  ```
 		-
 	- Arrays Types #typescript/types/array
-	  collapsed:: true
+		- ```ts
+		  const type = {
+		    arr:string[],// [stirng,string]
+		    arr2:[string,nubmer], // [string,number]
+		    arr3:(string | number)[] // [5, "string", 5];
+		  }
+		  ```
+	- Working with Enums #typescript/types/enums
 		-
-	-
--
