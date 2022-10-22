@@ -108,5 +108,28 @@ tags:: course #programming #frontend-developer
 		  type User = { name: string; age: number };
 		  const u1: User = { name: 'Name', age: 30 }; // this works!
 		  ```
+	- Function Return Types & "void" #typescript/types/function
+	  collapsed:: true
+		- ==void== 用於未 return 值使用
+		- ```ts
+		  function add(n1: number, n2: number): void {
+		    console.log(n1 + n2);
+		  }
+		  // 實際上 add 去檢視 return 會得到 undefined
+		  console.log(add(5,6)) 
+		  
+		  // 但以下是有錯誤的
+		  // typescript 會認為有 return;
+		  function add(n1: number, n2: number): undefined {
+		    console.log(n1 + n2);
+		  }
+		  
+		  // 正確
+		  function add(n1: number, n2: number): undefined {
+		    console.log(n1 + n2);
+		    return;
+		  }
+		  
+		  ```
 	-
 		-
