@@ -8,6 +8,7 @@ tags:: course #programming #frontend-developer
 		- TypeScript 是 [JavaScript](https://zh.wikipedia.org/wiki/JavaScript) 的嚴格語法超集，提供了可選的靜態型別檢查，可以編譯成 JavaScript 執行於任何 JavaScript 環境上。
 - Secton 2 : TypeScript Basis & Basic Types
 	- Type Assignment & Type Inference #typescript/types
+	  collapsed:: true
 		- ```ts
 		  // 多餘的 code , typescript 本身就會自行推斷 "name" 的型別
 		  // 不需要指定 string 給它
@@ -20,6 +21,7 @@ tags:: course #programming #frontend-developer
 		  ```
 	- Object Types #typescript/types/object
 		- ```ts
+		  // Object 使用方式 (較少) 常使用 interface (整理至 /types 資料夾)
 		  const person:{
 		    name: string,
 		    age:number
@@ -39,9 +41,18 @@ tags:: course #programming #frontend-developer
 		    }
 		  }
 		  
+		  const product: {
+		    id: string;
+		    price: number;
+		    tags: string[];
+		    details: {
+		      title: string;
+		      description: string;
+		    }
+		  }
 		  
 		  ```
 		-
--
+	-
 -
 -
