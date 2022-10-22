@@ -131,19 +131,25 @@ tags:: course #programming #frontend-developer
 		  
 		  ```
 	- Function Types & Callbacks #typescript/types/function
-		- callback 類型如果不須使用
+		- 如果  callback return 值需要被忽略請使用 ==void==
+		- 可以防止意外使用到 return 值
+		- Ps. ==不是強制你傳入不回傳任何值的 function
 		- ```ts
-		  // callback => (response: any) => void)
 		  function sendRequest(data: string, cb: (response: any) => void) {
 		    // ... sending a request with "data"
-		    // 這裡將
-		    return cb({data: 'Hi there!'});
+		    return cb({ data: "Hi there!" });
 		  }
-		   
-		  sendRequest('Send this!', (response) => { 
+		  
+		  // value 推斷類型為 void
+		  const value = sendRequest("Send this!", (response) => {
 		    console.log(response);
-		    // 這裡有 return 但不會有編譯錯誤
-		    return true;
-		   });
+		    return true
+		  });
+		  
+		  // 實際上 value 是 boolean 類型，但 typescript 會推斷為 void
+		  // error: 類型 'void' 沒有屬性 'name'
+		  value.name()
+		  // error: 因為類型 'void' 與 'boolean' 未重疊，所以此條件永遠會傳回 'false'
+		  console.log(value === true)
 		  ```
 		-
