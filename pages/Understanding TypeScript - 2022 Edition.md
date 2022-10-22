@@ -18,7 +18,30 @@ tags:: course #programming #frontend-developer
 		  let name2:string
 		  name2="name"
 		  ```
-	-
+	- Object Types #typescript/types/object
+		- ```ts
+		  const person:{
+		    name: string,
+		    age:number
+		  } = {
+		    name: 'Name',
+		    age:30
+		  }
+		  
+		  // 巢狀結構
+		  const product = {
+		    id: 'abc1',
+		    price: 12.99,
+		    tags: ['great-offer', 'hot-and-new'],
+		    details: {
+		      title: 'Red Carpet',
+		      description: 'A great carpet - almost brand-new!'
+		    }
+		  }
+		  
+		  
+		  ```
+		-
 -
 -
 -
