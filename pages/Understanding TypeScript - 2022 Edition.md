@@ -131,9 +131,7 @@ tags:: course #programming #frontend-developer
 		  
 		  ```
 	- Function Types & Callbacks #typescript/types/function
-		- 如果  callback return 值需要被忽略請使用 ==void==
-		- 可以防止意外使用到 return 值
-		- Ps. ==不是強制你傳入不回傳任何值的 function
+		- 如果  callback return 值需要被忽略請使用 ==void== 可以防止意外使用到 return 值
 		- ```ts
 		  function sendRequest(data: string, cb: (response: any) => void) {
 		    // ... sending a request with "data"
@@ -152,4 +150,8 @@ tags:: course #programming #frontend-developer
 		  // error: 因為類型 'void' 與 'boolean' 未重疊，所以此條件永遠會傳回 'false'
 		  console.log(value === true)
 		  ```
-		-
+		- >💡 注意
+		  不是強制你傳入不回傳任何值的 function，只是告知不會將回傳值做任何使用。
+	- The "unknown" Type #typescript/types/unkwon
+		- unknow 是未知
+	-

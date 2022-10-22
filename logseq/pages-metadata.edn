@@ -257,9 +257,12 @@
  {:block/name "typescript/types/union",
   :block/created-at 1666420572386,
   :block/updated-at 1666420572386}
+ {:block/name "typescript/types/unkwon",
+  :block/created-at 1666425527227,
+  :block/updated-at 1666425527227}
  {:block/name "understanding typescript - 2022 edition",
   :block/created-at 1666179939401,
-  :block/updated-at 1666424878511}
+  :block/updated-at 1666425527231}
  {:block/name "wait",
   :block/created-at 1661538426559,
   :block/updated-at 1661538426559}
