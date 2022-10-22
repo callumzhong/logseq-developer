@@ -109,7 +109,7 @@ tags:: course #programming #frontend-developer
 		  const u1: User = { name: 'Name', age: 30 }; // this works!
 		  ```
 	- Function Return Types & "void" #typescript/types/function
-		- ==void== 用於沒有 return 或者空 return
+		- ==void== 表示不返回值的函數 (返回空值也是)
 		- ```ts
 		  function add(n1: number, n2: number): void {
 		    console.log(n1 + n2);
