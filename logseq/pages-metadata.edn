@@ -227,6 +227,9 @@
  {:block/name "typescript/types",
   :block/created-at 1666413613778,
   :block/updated-at 1666414540370}
+ {:block/name "typescript/types/array",
+  :block/created-at 1666416000392,
+  :block/updated-at 1666416000392}
  {:block/name "typescript/types/number",
   :block/created-at 1666415713086,
   :block/updated-at 1666415713086}
@@ -238,7 +241,7 @@
   :block/updated-at 1666415704081}
  {:block/name "understanding typescript - 2022 edition",
   :block/created-at 1666179939401,
-  :block/updated-at 1666415713092}
+  :block/updated-at 1666416000396}
  {:block/name "wait",
   :block/created-at 1661538426559,
   :block/updated-at 1661538426559}
