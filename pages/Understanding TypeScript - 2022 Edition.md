@@ -109,7 +109,7 @@ tags:: course #programming #frontend-developer
 		  const u1: User = { name: 'Name', age: 30 }; // this works!
 		  ```
 	- Function Return Types & "void" #typescript/types/function
-		- ==void== 表示不返回值的函數 (返回空值也是)
+		- ==void== 表示不返回值的函數
 		- ```ts
 		  function add(n1: number, n2: number): void {
 		    console.log(n1 + n2);
@@ -123,12 +123,27 @@ tags:: course #programming #frontend-developer
 		    console.log(n1 + n2);
 		  }
 		  
-		  // 正確 (但是通常會直接使用 void 因為沒有是空 return)
+		  // 正確 (但是通常會直接使用 void 因為沒有 return 值)
 		  function add(n1: number, n2: number): undefined {
 		    console.log(n1 + n2);
 		    return;
 		  }
 		  
 		  ```
-	-
+	- Function Types & Callbacks #typescript/types/function
+		- callback 類型如果不須使用
+		- ```ts
+		  // callback => (response: any) => void)
+		  function sendRequest(data: string, cb: (response: any) => void) {
+		    // ... sending a request with "data"
+		    // 這裡將
+		    return cb({data: 'Hi there!'});
+		  }
+		   
+		  sendRequest('Send this!', (response) => { 
+		    console.log(response);
+		    // 這裡有 return 但不會有編譯錯誤
+		    return true;
+		   });
+		  ```
 		-
