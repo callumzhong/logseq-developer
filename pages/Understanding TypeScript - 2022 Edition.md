@@ -103,12 +103,14 @@ tags:: course #programming #frontend-developer
 		  
 		  ```
 	- Type Aliases & Object Types #typescript/types/type
+	  collapsed:: true
 		- type 是 typescript 提供的型別
 		- ```ts
 		  type User = { name: string; age: number };
 		  const u1: User = { name: 'Name', age: 30 }; // this works!
 		  ```
 	- Function Return Types & "void" #typescript/types/function
+	  collapsed:: true
 		- ==void== 表示不返回值的函數
 		- ```ts
 		  function add(n1: number, n2: number): void {
@@ -131,6 +133,7 @@ tags:: course #programming #frontend-developer
 		  
 		  ```
 	- Function Types & Callbacks #typescript/types/function
+	  collapsed:: true
 		- 如果  callback return 值需要被忽略請使用 ==void== 可以防止意外使用到 return 值
 		- ```ts
 		  function sendRequest(data: string, cb: (response: any) => void) {
@@ -153,6 +156,7 @@ tags:: course #programming #frontend-developer
 		- >💡 注意
 		  不是強制你傳入不回傳任何值的 function，只是告知不會將回傳值做任何使用。
 	- The "unknown" Type #typescript/types/unkwon
+	  collapsed:: true
 		- unknow 表示任何值但比 any 更嚴謹的類型
 		- ```ts
 		  let userInputByKnown:unknown;
@@ -174,4 +178,12 @@ tags:: course #programming #frontend-developer
 		  ```
 		- any 可以未經檢查賦予其他變數
 		- unknow 則不行
-	-
+	- The "never" Type #typescript/types/never
+		- 表示 function 永遠不會返回值，通常用於拋出 throw 或者終止整個 JavaScript 程序
+		- ```ts
+		  function fail(msg: string): never {
+		    throw new Error(msg);
+		  }
+		  
+		  ```
+-
