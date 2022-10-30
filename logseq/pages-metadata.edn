@@ -1,33 +1,12 @@
-[{:block/name "1",
-  :block/created-at 1666652313537,
-  :block/updated-at 1666652313537}
- {:block/name "2022-10-15",
-  :block/created-at 1665763237805,
-  :block/updated-at 1665763237805}
- {:block/name "2022-10-16",
-  :block/created-at 1665861102189,
-  :block/updated-at 1665861102189}
- {:block/name "2022-10-17",
-  :block/created-at 1665936036487,
-  :block/updated-at 1665936036487}
- {:block/name "2022-10-18",
+[{:block/name "2022-10-18",
   :block/created-at 1666022436474,
   :block/updated-at 1666653709227}
- {:block/name "2022-10-19",
-  :block/created-at 1666134756240,
-  :block/updated-at 1666134756240}
- {:block/name "2022-10-20",
-  :block/created-at 1666195235253,
-  :block/updated-at 1666195235253}
- {:block/name "2022-10-21",
-  :block/created-at 1666281635251,
-  :block/updated-at 1666281635251}
- {:block/name "2022-10-22",
-  :block/created-at 1666368033915,
-  :block/updated-at 1666368033915}
  {:block/name "2022-10-25",
   :block/created-at 1666647512447,
   :block/updated-at 1666655084193}
+ {:block/name "2022-10-30",
+  :block/created-at 1667066198879,
+  :block/updated-at 1667066198879}
  {:block/name "a",
   :block/created-at 1661538426559,
   :block/updated-at 1661538426559}
@@ -109,9 +88,6 @@
  {:block/name "frontend-developer/interview/test",
   :block/created-at 1666098767889,
   :block/updated-at 1666098767889}
- {:block/name "frontend-developer/interviewm",
-  :block/created-at 1666653801766,
-  :block/updated-at 1666653801766}
  {:block/name "git 指令",
   :block/created-at 1665745412295,
   :block/updated-at 1665746152454}
@@ -133,9 +109,6 @@
  {:block/name "javascript/syntax/function",
   :block/created-at 1665783201014,
   :block/updated-at 1665783201014}
- {:block/name "javascript/type",
-  :block/created-at 1665783524395,
-  :block/updated-at 1665783524395}
  {:block/name "javascript/types",
   :block/created-at 1665783525210,
   :block/updated-at 1665783525210}
@@ -154,9 +127,6 @@
  {:block/name "now",
   :block/created-at 1661538426559,
   :block/updated-at 1661538426559}
- {:block/name "oct 14th, 2022",
-  :block/created-at 1665721369028,
-  :block/updated-at 1665721369028}
  {:block/name "programming",
   :block/created-at 1665895942868,
   :block/updated-at 1665895942868}
@@ -212,9 +182,6 @@
  {:block/name "react/ui/props",
   :block/created-at 1665894862694,
   :block/updated-at 1665894862694}
- {:block/name "software development",
-  :block/created-at 1665895942869,
-  :block/updated-at 1665895942869}
  {:block/name "todo",
   :block/created-at 1662695819949,
   :block/updated-at 1662695819949}
