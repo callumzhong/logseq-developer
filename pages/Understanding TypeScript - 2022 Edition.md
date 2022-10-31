@@ -10,43 +10,23 @@ tags:: course #programming #frontend-developer
 	- Type Assignment & Type Inference
 		- ```ts
 		  let isDone: boolean
-		  let isDone: boolean = false
+		  isDone = "true" // ❌
+		  isDone = true // ✅
+		  
+		  let isDone2: boolean = false // ❌
+		  let isDone2 = false // ✅ typescript 推斷型別 boolean
 		  ```
 		  #typescript/types/declarations
-	- Object Types #typescript/types/basic
+	- Object Types
 		- ```ts
-		  // Object 使用方式 (較少) 常使用 interface (整理至 /types 資料夾)
 		  const person:{
 		    name: string,
 		    age:number
-		  } = {
-		    name: 'Name',
-		    age:30
-		  }
-		  
-		  // 巢狀結構
-		  const product = {
-		    id: 'abc1',
-		    price: 12.99,
-		    tags: ['great-offer', 'hot-and-new'],
-		    details: {
-		      title: 'Red Carpet',
-		      description: 'A great carpet - almost brand-new!'
-		    }
-		  }
-		  
-		  const product: {
-		    id: string;
-		    price: number;
-		    tags: string[];
-		    details: {
-		      title: string;
-		      description: string;
-		    }
 		  }
 		  ```
+		  #typescript/types/basic
 		-
-	- Arrays Types #typescript/types/basic
+	- Arrays Types
 		- ```ts
 		  const type = {
 		    arr:string[],// [stirng,string]
@@ -54,6 +34,7 @@ tags:: course #programming #frontend-developer
 		    arr3:(string | number)[] // [5, "string", 5];
 		  }
 		  ```
+		  #typescript/types/basic
 	- Working with Enums #typescript/types/enums
 		- 列舉是 TypeScript 提供的類型
 		- ```ts

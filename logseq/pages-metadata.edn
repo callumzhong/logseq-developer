@@ -209,6 +209,9 @@
  {:block/name "typescript/types/de",
   :block/created-at 1667177180436,
   :block/updated-at 1667177180436}
+ {:block/name "typescript/types/declarations",
+  :block/created-at 1667177432288,
+  :block/updated-at 1667177432288}
  {:block/name "typescript/types/enums",
   :block/created-at 1666419333455,
   :block/updated-at 1666419333455}
@@ -235,7 +238,7 @@
   :block/updated-at 1666425527227}
  {:block/name "understanding typescript - 2022 edition",
   :block/created-at 1666179939401,
-  :block/updated-at 1667177407581}
+  :block/updated-at 1667177672000}
  {:block/name "wait",
   :block/created-at 1661538426559,
   :block/updated-at 1661538426559}
