@@ -31,9 +31,6 @@
  {:block/name "card",
   :block/created-at 1662300780560,
   :block/updated-at 1662300780560}
- {:block/name "cite_note-1)。",
-  :block/created-at 1666652313534,
-  :block/updated-at 1666652313534}
  {:block/name "contents",
   :block/created-at 1661538426559,
   :block/updated-at 1665747379726}
@@ -197,31 +194,34 @@
  {:block/name "typescript/types",
   :block/created-at 1666413613778,
   :block/updated-at 1666414540370}
- {:block/name "typescript/types/basic",
+ {:block/name "typescript/types/array",
   :block/created-at 1666416000392,
   :block/updated-at 1666416000392}
+ {:block/name "typescript/types/basic",
+  :block/created-at 1667176673494,
+  :block/updated-at 1667176673494}
  {:block/name "typescript/types/enums",
   :block/created-at 1666419333455,
   :block/updated-at 1666419333455}
  {:block/name "typescript/types/function",
   :block/created-at 1666422212987,
   :block/updated-at 1666422212987}
- {:block/name "typescript/types/basic",
+ {:block/name "typescript/types/never",
   :block/created-at 1666426454869,
   :block/updated-at 1666426454869}
- {:block/name "typescript/types/basic",
+ {:block/name "typescript/types/number",
   :block/created-at 1666415713086,
   :block/updated-at 1666415713086}
- {:block/name "typescript/types/basic",
+ {:block/name "typescript/types/object",
   :block/created-at 1666414037807,
   :block/updated-at 1666414037807}
- {:block/name "typescript/types/basic",
+ {:block/name "typescript/types/string",
   :block/created-at 1666415704081,
   :block/updated-at 1666415704081}
- {:block/name "typescript/types/basic",
+ {:block/name "typescript/types/type",
   :block/created-at 1666421788138,
   :block/updated-at 1666421788138}
- {:block/name "typescript/types/basic",
+ {:block/name "typescript/types/unkwon",
   :block/created-at 1666425527227,
   :block/updated-at 1666425527227}
  {:block/name "understanding typescript - 2022 edition",
