@@ -7,7 +7,7 @@ tags:: course #programming #frontend-developer
 		- >[TypeScript: JavaScript With Syntax For Types. (typescriptlang.org)](https://www.typescriptlang.org/)
 		- TypeScript 是 [JavaScript](https://zh.wikipedia.org/wiki/JavaScript) 的嚴格語法超集，提供了可選的靜態型別檢查，可以編譯成 JavaScript 執行於任何 JavaScript 環境上。
 - Secton 2 : TypeScript Basis & Basic Types
-	- Type Assignment & Type Inference #typescript/types/string #typescript/types/number
+	- Type Assignment & Type Inference #typescript/types/basic #typescript/types/basic
 		- ```ts
 		  // typescript 本身就會自行推斷 "name" 的型別 (稱為靜態類型系統)
 		  const name="name"
@@ -22,7 +22,7 @@ tags:: course #programming #frontend-developer
 		  let name2:string
 		  name2="name"
 		  ```
-	- Object Types #typescript/types/object
+	- Object Types #typescript/types/basic
 		- ```ts
 		  // Object 使用方式 (較少) 常使用 interface (整理至 /types 資料夾)
 		  const person:{
@@ -55,7 +55,7 @@ tags:: course #programming #frontend-developer
 		  }
 		  ```
 		-
-	- Arrays Types #typescript/types/array
+	- Arrays Types #typescript/types/basic
 		- ```ts
 		  const type = {
 		    arr:string[],// [stirng,string]
@@ -97,7 +97,7 @@ tags:: course #programming #frontend-developer
 		  };
 		  
 		  ```
-	- Type Aliases & Object Types #typescript/types/type
+	- Type Aliases & Object Types #typescript/types/basic
 		- type 是 typescript 提供的型別
 		- ```ts
 		  type User = { name: string; age: number };
@@ -147,7 +147,7 @@ tags:: course #programming #frontend-developer
 		  ```
 		- >💡 注意
 		  不是強制你傳入不回傳任何值的 function，只是告知不會將回傳值做任何使用。
-	- The "unknown" Type #typescript/types/unkwon
+	- The "unknown" Type #typescript/types/basic
 		- unknow 表示任何值但比 any 更嚴謹的類型
 		- ```ts
 		  let userInputByKnown:unknown;
@@ -169,7 +169,7 @@ tags:: course #programming #frontend-developer
 		  ```
 		- any 可以未經檢查賦予其他變數
 		- unknow 則不行
-	- The "never" Type #typescript/types/never
+	- The "never" Type #typescript/types/basic
 		- 表示 function 永遠不會返回值，通常用於拋出 throw 或者終止整個 JavaScript 程序
 		- ```ts
 		  function fail(msg: string): never {

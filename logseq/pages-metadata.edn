@@ -7,6 +7,9 @@
  {:block/name "2022-10-30",
   :block/created-at 1667066198879,
   :block/updated-at 1667101736403}
+ {:block/name "2022-10-31",
+  :block/created-at 1667175621248,
+  :block/updated-at 1667175621248}
  {:block/name "a",
   :block/created-at 1661538426559,
   :block/updated-at 1661538426559}
@@ -194,7 +197,7 @@
  {:block/name "typescript/types",
   :block/created-at 1666413613778,
   :block/updated-at 1666414540370}
- {:block/name "typescript/types/array",
+ {:block/name "typescript/types/basic",
   :block/created-at 1666416000392,
   :block/updated-at 1666416000392}
  {:block/name "typescript/types/enums",
@@ -203,22 +206,22 @@
  {:block/name "typescript/types/function",
   :block/created-at 1666422212987,
   :block/updated-at 1666422212987}
- {:block/name "typescript/types/never",
+ {:block/name "typescript/types/basic",
   :block/created-at 1666426454869,
   :block/updated-at 1666426454869}
- {:block/name "typescript/types/number",
+ {:block/name "typescript/types/basic",
   :block/created-at 1666415713086,
   :block/updated-at 1666415713086}
- {:block/name "typescript/types/object",
+ {:block/name "typescript/types/basic",
   :block/created-at 1666414037807,
   :block/updated-at 1666414037807}
- {:block/name "typescript/types/string",
+ {:block/name "typescript/types/basic",
   :block/created-at 1666415704081,
   :block/updated-at 1666415704081}
- {:block/name "typescript/types/type",
+ {:block/name "typescript/types/basic",
   :block/created-at 1666421788138,
   :block/updated-at 1666421788138}
- {:block/name "typescript/types/unkwon",
+ {:block/name "typescript/types/basic",
   :block/created-at 1666425527227,
   :block/updated-at 1666425527227}
  {:block/name "understanding typescript - 2022 edition",
