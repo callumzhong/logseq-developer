@@ -197,9 +197,18 @@
  {:block/name "typescript/types/array",
   :block/created-at 1666416000392,
   :block/updated-at 1666416000392}
+ {:block/name "typescript/types/assi",
+  :block/created-at 1667177303411,
+  :block/updated-at 1667177303411}
+ {:block/name "typescript/types/assignment",
+  :block/created-at 1667177306123,
+  :block/updated-at 1667177306123}
  {:block/name "typescript/types/basic",
   :block/created-at 1667176673494,
   :block/updated-at 1667176673494}
+ {:block/name "typescript/types/de",
+  :block/created-at 1667177180436,
+  :block/updated-at 1667177180436}
  {:block/name "typescript/types/enums",
   :block/created-at 1666419333455,
   :block/updated-at 1666419333455}
@@ -226,7 +235,7 @@
   :block/updated-at 1666425527227}
  {:block/name "understanding typescript - 2022 edition",
   :block/created-at 1666179939401,
-  :block/updated-at 1666426570563}
+  :block/updated-at 1667177407581}
  {:block/name "wait",
   :block/created-at 1661538426559,
   :block/updated-at 1661538426559}
