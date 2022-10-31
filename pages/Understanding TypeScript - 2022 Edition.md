@@ -3,13 +3,11 @@ tags:: course #programming #frontend-developer
 - >Author(s): [[Maximilian Schwarzmiiller]]
   Url: [Understanding TypeScript - 2022 Edition | Udemy](https://www.udemy.com/course/understanding-typescript/learn/lecture/17751414)
 - Section 1 : Getting Started
-  collapsed:: true
 	- What Is TypeScript & Why Should You Use It? #typescript/introduction
 		- >[TypeScript: JavaScript With Syntax For Types. (typescriptlang.org)](https://www.typescriptlang.org/)
 		- TypeScript 是 [JavaScript](https://zh.wikipedia.org/wiki/JavaScript) 的嚴格語法超集，提供了可選的靜態型別檢查，可以編譯成 JavaScript 執行於任何 JavaScript 環境上。
 - Secton 2 : TypeScript Basis & Basic Types
 	- Type Assignment & Type Inference #typescript/types/string #typescript/types/number
-	  collapsed:: true
 		- ```ts
 		  // typescript 本身就會自行推斷 "name" 的型別 (稱為靜態類型系統)
 		  const name="name"
@@ -25,7 +23,6 @@ tags:: course #programming #frontend-developer
 		  name2="name"
 		  ```
 	- Object Types #typescript/types/object
-	  collapsed:: true
 		- ```ts
 		  // Object 使用方式 (較少) 常使用 interface (整理至 /types 資料夾)
 		  const person:{
@@ -59,7 +56,6 @@ tags:: course #programming #frontend-developer
 		  ```
 		-
 	- Arrays Types #typescript/types/array
-	  collapsed:: true
 		- ```ts
 		  const type = {
 		    arr:string[],// [stirng,string]
@@ -68,7 +64,6 @@ tags:: course #programming #frontend-developer
 		  }
 		  ```
 	- Working with Enums #typescript/types/enums
-	  collapsed:: true
 		- 列舉是 TypeScript 提供的類型
 		- ```ts
 		  // TypeScript
@@ -103,14 +98,12 @@ tags:: course #programming #frontend-developer
 		  
 		  ```
 	- Type Aliases & Object Types #typescript/types/type
-	  collapsed:: true
 		- type 是 typescript 提供的型別
 		- ```ts
 		  type User = { name: string; age: number };
 		  const u1: User = { name: 'Name', age: 30 }; // this works!
 		  ```
 	- Function Return Types & "void" #typescript/types/function
-	  collapsed:: true
 		- ==void== 表示不返回值的函數
 		- ```ts
 		  function add(n1: number, n2: number): void {
@@ -133,7 +126,6 @@ tags:: course #programming #frontend-developer
 		  
 		  ```
 	- Function Types & Callbacks #typescript/types/function
-	  collapsed:: true
 		- 如果  callback return 值需要被忽略請使用 ==void== 可以防止意外使用到 return 值
 		- ```ts
 		  function sendRequest(data: string, cb: (response: any) => void) {
@@ -156,7 +148,6 @@ tags:: course #programming #frontend-developer
 		- >💡 注意
 		  不是強制你傳入不回傳任何值的 function，只是告知不會將回傳值做任何使用。
 	- The "unknown" Type #typescript/types/unkwon
-	  collapsed:: true
 		- unknow 表示任何值但比 any 更嚴謹的類型
 		- ```ts
 		  let userInputByKnown:unknown;
