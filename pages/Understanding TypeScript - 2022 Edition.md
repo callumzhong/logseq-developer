@@ -7,6 +7,11 @@ tags:: course #programming #frontend-developer
 		- >[TypeScript: JavaScript With Syntax For Types. (typescriptlang.org)](https://www.typescriptlang.org/)
 		- TypeScript 是 [JavaScript](https://zh.wikipedia.org/wiki/JavaScript) 的嚴格語法超集，提供了可選的靜態型別檢查，可以編譯成 JavaScript 執行於任何 JavaScript 環境上。
 - Secton 2 : TypeScript Basis & Basic Types
+	- Working with Numbers, String & Booleans
+		- ```ts
+		  const number1 = 5; // number type
+		  const number2 = 2.8 // number type (沒有 float 型別)
+		  ```
 	- Type Assignment & Type Inference
 		- ```ts
 		  let isDone: boolean
