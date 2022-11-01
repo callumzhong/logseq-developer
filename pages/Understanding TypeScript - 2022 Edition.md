@@ -10,16 +10,18 @@ tags:: course #programming #frontend-developer
 	- Working with Numbers, String & Booleans
 		- ```ts
 		  function add(n1:number,n2:number,showResult:boolean,phrase:string){
+		   const result = n1+n2
 		    if(showResult){
-		      console.log(phrase +n1 +n2)
+		      console.log(phrase + result)
+		    }else {
+		        return n1+n2
 		    }
-		    return n1+n2
 		  }
 		  
 		  const number1 = 5; // number type
 		  const number2 = 2.8 // number type (沒有 float 型別)
 		  const printResult = true
-		  const
+		  const phrase = "phrase is: "
 		  ```
 	- Type Assignment & Type Inference
 		- ```ts
