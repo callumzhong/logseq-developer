@@ -19,7 +19,6 @@
 	- Git
 	- React
 	- Next.js
-	- Vue
 	- Node.js
 	- Deno
 	- Express
