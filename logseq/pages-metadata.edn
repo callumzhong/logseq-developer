@@ -24,7 +24,7 @@
   :block/updated-at 1661538426559}
  {:block/name "about me",
   :block/created-at 1665747109653,
-  :block/updated-at 1666104679593}
+  :block/updated-at 1667551838275}
  {:block/name "b",
   :block/created-at 1661538426559,
   :block/updated-at 1661538426559}
@@ -109,15 +109,9 @@
  {:block/name "javascript-cheatsheets",
   :block/created-at 1667462100270,
   :block/updated-at 1667462100270}
- {:block/name "javascript-cheatsheets/set",
-  :block/created-at 1667462116256,
-  :block/updated-at 1667462116256}
  {:block/name "javascript-cheatsheets/settimeout",
   :block/created-at 1667462118192,
-  :block/updated-at 1667462118192}
- {:block/name "javascript-cheatsheets/sleep",
-  :block/created-at 1667462109778,
-  :block/updated-at 1667462109778}
+  :block/updated-at 1667551873550}
  {:block/name "javascript/class",
   :block/created-at 1665782274511,
   :block/updated-at 1665782274511}
