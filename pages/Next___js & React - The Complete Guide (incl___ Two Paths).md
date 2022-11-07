@@ -75,4 +75,5 @@ title:: Next.js & React - The Complete Guide (incl. Two Paths)
 		  	return <Link herf="/product"> product </Link> 
 		  }
 		  ```
-		  >
+		  >  使用 Link 進行跳轉路由
+		  #next/routing/introduction
