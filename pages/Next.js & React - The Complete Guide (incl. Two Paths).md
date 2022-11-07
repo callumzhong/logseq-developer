@@ -18,7 +18,7 @@ title:: Next.js & React - The Complete Guide (incl. Two Paths)
 	  pages/about/[id].js
 	  ```
 	  >[Routing: Introduction | Next.js (nextjs.org)](https://nextjs.org/docs/routing/introduction)
-	  #next/routing
+	  #next/routing/introduction
 	-
 	-
 	- `/pages/index.js`
