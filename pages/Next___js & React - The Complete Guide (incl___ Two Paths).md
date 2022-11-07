@@ -67,3 +67,12 @@ title:: Next.js & React - The Complete Guide (incl. Two Paths)
 		  }
 		  ```
 		  > #next/routing/dynamic
+	- Navigating with the "Link" Component
+		- ```jsx
+		  import Link from 'next/link'
+		  
+		  const Navbar = ()=>{
+		  	return <Link herf="/product"> product </Link> 
+		  }
+		  ```
+		  >
