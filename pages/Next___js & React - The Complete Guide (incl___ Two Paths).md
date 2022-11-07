@@ -41,5 +41,42 @@ title:: Next.js & React - The Complete Guide (incl. Two Paths)
 		  >[Routing: Dynamic Routes | Next.js (nextjs.org)](https://nextjs.org/docs/routing/dynamic-routes)
 		  #next/routing/dynamic
 	- Building Nested Dynamic Routes & Paths
-		- ```
+		- ```jsx
+		  /*
+		   pages
+		   - clients
+		   	- index.js
+		    	- [id]
+		  		- index.js
+		  		- [clientprojectid].js
+		  */
+		  
+		  // pages/clients/[id]/[clientprojectid].js
+		  import { useRouter } from 'next/router';
+		  
+		  const SelectedClientProjectPage = () => {
+		    const router = useRouter();
+		    const query = router.query;
+		    return (
+		      <div>
+		        <ul>
+		          {Object.entries(router.query).map(
+		            ([key, value], idx) => (
+		              <li key={idx}>
+		                key: {key}
+		                <br />
+		                value: {value}
+		              </li>
+		            ),
+		          )}
+		        </ul>
+		      </div>
+		    );
+		  };
+		  
+		  export default SelectedClientProjectPage;
+		  
+		  // query 有 id , clientprojectid 兩個 key value
 		  ```
+		  >[Routing: Dynamic Routes | Next.js (nextjs.org)](https://nextjs.org/docs/routing/dynamic-routes)
+		  #next/routing/dynamic
