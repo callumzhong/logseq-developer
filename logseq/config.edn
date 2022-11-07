@@ -227,6 +227,7 @@
  :journal/page-title-format "yyyy-MM-dd"
  :publishing/all-pages-public? true
  :default-home {:page "About Me"}
+ :file/name-format :triple-lowbar
 
  ;; Properties to exclude from having property pages
  ;; E.g.:property-pages/excludelist #{:duration :author}
