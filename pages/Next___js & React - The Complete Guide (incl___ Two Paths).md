@@ -42,23 +42,24 @@ title:: Next.js & React - The Complete Guide (incl. Two Paths)
 		  
 		  const SelectedClientProjectPage = () => {
 		    const router = useRouter();
+		    const {id,clientprojectid} = router.query
 		    return (
 		      <div>
-		        <ul>
-		          {Object.entries(router.query).map(
-		            ([key, value], idx) => (
-		              <li key={idx}>
-		                key: {key}
-		                <br />
-		                value: {value}
-		              </li>
-		            ),
-		          )}
-		        </ul>
+		        <p>id: {id}</p>
+		        <p>clientprojectid: {clientprojectid}</p>
 		      </div>
 		    );
 		  };
 		  ```
 		  >#next/routing/dynamic
 	- Adding Catch-All Routes
-		-
+		- ```jsx
+		  // pages/blog/[...slug].js
+		  // url: domain.com/blog/2022/11/07
+		  import { useRouter } from 'next/router'
+		  
+		  function BlogPostsPag() {
+		    const router = useRouter();
+		    const {} =
+		  }
+		  ```
