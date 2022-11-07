@@ -22,44 +22,48 @@ title:: Next.js & React - The Complete Guide (incl. Two Paths)
 	- Extracting Dynamic Path Segment Data (Dynamic Routes)
 		- ```jsx
 		  // pages/product/[id].js
+		  // domain.com/product/callum
+		  
 		  import { useRouter } from 'next/router';
 		  
 		  const ProductItemPage = ()=>{
 		    const router = useRouter();
-		    const {id} = router.query
-		    return (
-		      <div>
-		      	id: {id}
-		      </div>
-		    ) 
+		    
+		    console.log(router.query) // {id:callum}
+		    
+		    return <div>Hello World<div>
 		  }
 		  ```
 		  >#next/routing/dynamic
 	- Building Nested Dynamic Routes & Paths
 		- ```jsx
 		  // pages/clients/[id]/[clientprojectid].js
+		  // domain.com/clients/callum/123
+		  
 		  import { useRouter } from 'next/router';
 		  
 		  const SelectedClientProjectPage = () => {
 		    const router = useRouter();
-		    const {id,clientprojectid} = router.query
-		    return (
-		      <div>
-		        <p>id: {id}</p>
-		        <p>clientprojectid: {clientprojectid}</p>
-		      </div>
-		    );
+		    
+		    console.log(router.query) // {id:callum, clientprojectid:123}
+		    
+		    return <div>Hello World<div>
 		  };
 		  ```
 		  >#next/routing/dynamic
 	- Adding Catch-All Routes
 		- ```jsx
 		  // pages/blog/[...slug].js
-		  // url: domain.com/blog/2022/11/07
+		  // domain.com/blog/2022/11/07
+		  
 		  import { useRouter } from 'next/router'
 		  
 		  function BlogPostsPag() {
 		    const router = useRouter();
-		    const {} =
+		    
+		    console.log(router.query) // { slug: ["2022","11","07"]}
+		    
+		    return <div>Hello World<div>
 		  }
 		  ```
+		  > #next/routing/dynamic
