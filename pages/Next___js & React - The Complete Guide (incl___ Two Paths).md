@@ -18,7 +18,7 @@ title:: Next.js & React - The Complete Guide (incl. Two Paths)
 		  // domain.com/about/動態 id
 		  pages/about/[id].js
 		  ```
-		  #next/routing/introduction
+		  >#next/routing/introduction
 	- Extracting Dynamic Path Segment Data (Dynamic Routes)
 		- ```jsx
 		  // domain.com/product/123
@@ -26,28 +26,19 @@ title:: Next.js & React - The Complete Guide (incl. Two Paths)
 		  // pages/product/[id].js
 		  
 		  import { useRouter } from 'next/router';
+		  
 		    const router = useRouter();
+		  const {} = router.
 		  };
 		  ```
-		  >[Routing: Dynamic Routes | Next.js (nextjs.org)](https://nextjs.org/docs/routing/dynamic-routes)
-		  #next/routing/dynamic
+		  >#next/routing/dynamic
 	- Building Nested Dynamic Routes & Paths
 		- ```jsx
-		  /*
-		   pages
-		   - clients
-		   	- index.js
-		    	- [id]
-		  		- index.js
-		  		- [clientprojectid].js
-		  */
-		  
 		  // pages/clients/[id]/[clientprojectid].js
 		  import { useRouter } from 'next/router';
 		  
 		  const SelectedClientProjectPage = () => {
 		    const router = useRouter();
-		    const query = router.query;
 		    return (
 		      <div>
 		        <ul>
@@ -64,12 +55,7 @@ title:: Next.js & React - The Complete Guide (incl. Two Paths)
 		      </div>
 		    );
 		  };
-		  
-		  export default SelectedClientProjectPage;
-		  
-		  // query 有 id , clientprojectid 兩個 key value
 		  ```
-		  >[Routing: Dynamic Routes | Next.js (nextjs.org)](https://nextjs.org/docs/routing/dynamic-routes)
-		  #next/routing/dynamic
+		  >#next/routing/dynamic
 	- Adding Catch-All Routes
 		-
