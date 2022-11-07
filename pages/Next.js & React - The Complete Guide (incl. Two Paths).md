@@ -7,7 +7,15 @@ title:: Next.js & React - The Complete Guide (incl. Two Paths)
   GitHub: https://github.com/mschwarzmueller/nextjs-course-code
 -
 - Secton 3 : Pages & File-based Routing
-	-
+	- ```
+	  // domain.com
+	  pages/index.js
+	  
+	  // domain.com/about
+	  pages/about.js
+	  
+	  pages/about/[id].js
+	  ```
 	-
 	- `/pages/index.js`
 	  > 
