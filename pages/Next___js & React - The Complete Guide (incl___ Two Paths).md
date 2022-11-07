@@ -21,15 +21,18 @@ title:: Next.js & React - The Complete Guide (incl. Two Paths)
 		  >#next/routing/introduction
 	- Extracting Dynamic Path Segment Data (Dynamic Routes)
 		- ```jsx
-		  // domain.com/product/123
-		  
 		  // pages/product/[id].js
-		  
 		  import { useRouter } from 'next/router';
 		  
+		  const ProductItemPage = ()=>{
 		    const router = useRouter();
-		  const {} = router.
-		  };
+		    const {id} = router.query
+		    return (
+		      <div>
+		      	id: {id}
+		      </div>
+		    ) 
+		  }
 		  ```
 		  >#next/routing/dynamic
 	- Building Nested Dynamic Routes & Paths
