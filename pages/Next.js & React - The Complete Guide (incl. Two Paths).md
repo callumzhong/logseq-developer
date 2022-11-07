@@ -14,8 +14,12 @@ title:: Next.js & React - The Complete Guide (incl. Two Paths)
 	  // domain.com/about
 	  pages/about.js
 	  
+	  // domain.com/about/動態 id
 	  pages/about/[id].js
 	  ```
+	  >[Routing: Introduction | Next.js (nextjs.org)](https://nextjs.org/docs/routing/introduction)
+	  #next/routing
+	-
 	-
 	- `/pages/index.js`
 	  > 
