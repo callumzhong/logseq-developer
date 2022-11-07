@@ -8,3 +8,7 @@ title:: Next.js & React - The Complete Guide (incl. Two Paths)
 -
 - Secton 3 : Pages & File-based Routing
 	-
+	-
+	- `/pages/index.js`
+	  > 
+	  `/pages/about.js`
