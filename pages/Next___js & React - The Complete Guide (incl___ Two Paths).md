@@ -7,8 +7,7 @@ title:: Next.js & React - The Complete Guide (incl. Two Paths)
   GitHub: https://github.com/mschwarzmueller/nextjs-course-code
 -
 - Secton 3 : Pages & File-based Routing
-	- 基於文件系統的路由機制
-	  ```
+	- ```
 	  // domain.com
 	  pages/index.js
 	  
@@ -18,7 +17,8 @@ title:: Next.js & React - The Complete Guide (incl. Two Paths)
 	  // domain.com/about/動態 id
 	  pages/about/[id].js
 	  ```
-	  > #next/routing/introduction
+	  >[Routing: Introduction | Next.js (nextjs.org)](https://nextjs.org/docs/routing/introduction)
+	  #next/routing/introduction
 	- ```jsx
 	  // pages/product/[id].js
 	  // domain.com/product/callum
@@ -33,7 +33,8 @@ title:: Next.js & React - The Complete Guide (incl. Two Paths)
 	    return <div>Hello World<div>
 	  }
 	  ```
-	  >#next/routing/dynamic
+	  >[Routing: Dynamic Routes | Next.js (nextjs.org)](https://nextjs.org/docs/routing/dynamic-routes)
+	  #next/routing/dynamic
 	- ```jsx
 	  // pages/clients/[id]/[clientprojectid].js
 	  // domain.com/clients/callum/123
@@ -48,7 +49,8 @@ title:: Next.js & React - The Complete Guide (incl. Two Paths)
 	    return <div>Hello World<div>
 	  };
 	  ```
-	  >#next/routing/dynamic
+	  >[Routing: Dynamic Routes | Next.js (nextjs.org)](https://nextjs.org/docs/routing/dynamic-routes)
+	  #next/routing/dynamic
 	- ```jsx
 	  // pages/blog/[...slug].js
 	  // domain.com/blog/2022/11/07
@@ -63,7 +65,8 @@ title:: Next.js & React - The Complete Guide (incl. Two Paths)
 	    return <div>Hello World<div>
 	  }
 	  ```
-	  > #next/routing/dynamic
+	  > [Routing: Dynamic Routes | Next.js (nextjs.org)](https://nextjs.org/docs/routing/dynamic-routes#catch-all-routes)
+	  #next/routing/dynamic
 	- ```jsx
 	  import {useRouter} from 'next/router'
 	  import Link from 'next/link'
@@ -98,7 +101,7 @@ title:: Next.js & React - The Complete Guide (incl. Two Paths)
 	    return <button onClick={clickHandler}></button>
 	  }
 	  ```
-	  >  切換路由的方法
+	  > [Routing: Introduction | Next.js (nextjs.org)](https://nextjs.org/docs/routing/introduction#linking-between-pages)
 	  #next/routing/introduction
 	- ```jsx
 	  // pages/404.js
@@ -107,6 +110,6 @@ title:: Next.js & React - The Complete Guide (incl. Two Paths)
 	    return <div>Error 404 </div>
 	  }
 	  ```
-	  > 404 頁面使用關鍵字命名 file
+	  >[Advanced Features: Custom Error Page | Next.js (nextjs.org)](https://nextjs.org/docs/advanced-features/custom-error-page#404-page)
 	  #next/routing/404
 	-
