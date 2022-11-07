@@ -18,7 +18,6 @@ title:: Next.js & React - The Complete Guide (incl. Two Paths)
 		  // domain.com/about/動態 id
 		  pages/about/[id].js
 		  ```
-		  >[Routing: Introduction | Next.js (nextjs.org)](https://nextjs.org/docs/routing/introduction)
 		  #next/routing/introduction
 	- Extracting Dynamic Path Segment Data (Dynamic Routes)
 		- ```jsx
