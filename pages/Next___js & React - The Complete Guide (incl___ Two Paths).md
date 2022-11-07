@@ -7,20 +7,17 @@ title:: Next.js & React - The Complete Guide (incl. Two Paths)
   GitHub: https://github.com/mschwarzmueller/nextjs-course-code
 -
 - Secton 3 : Pages & File-based Routing
-	- ```
-	  // domain.com
-	  pages/index.js
-	  
-	  // domain.com/about
-	  pages/about.js
-	  
-	  // domain.com/about/動態 id
-	  pages/about/[id].js
-	  ```
-	  >[Routing: Introduction | Next.js (nextjs.org)](https://nextjs.org/docs/routing/introduction)
-	  #next/routing/introduction
+	- What Is "File-based Routing"? And Why Is It Helpful?
+		- ```
+		  // domain.com
+		  pages/index.js
+		  
+		  // domain.com/about
+		  pages/about.js
+		  
+		  // domain.com/about/動態 id
+		  pages/about/[id].js
+		  ```
+		  >[Routing: Introduction | Next.js (nextjs.org)](https://nextjs.org/docs/routing/introduction)
+		  #next/routing/introduction
 	-
-	-
-	- `/pages/index.js`
-	  > 
-	  `/pages/about.js`
