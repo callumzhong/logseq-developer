@@ -7,6 +7,7 @@ title:: Next.js & React - The Complete Guide (incl. Two Paths)
   GitHub: https://github.com/mschwarzmueller/nextjs-course-code
 -
 - Secton 3 : Pages & File-based Routing
+  collapsed:: true
 	- ```
 	  // domain.com
 	  pages/index.js
@@ -112,4 +113,5 @@ title:: Next.js & React - The Complete Guide (incl. Two Paths)
 	  ```
 	  >[Advanced Features: Custom Error Page | Next.js (nextjs.org)](https://nextjs.org/docs/advanced-features/custom-error-page#404-page)
 	  #next/routing/404
+- Secton 4 : Project Time: Working with File-based Routing
 	-
