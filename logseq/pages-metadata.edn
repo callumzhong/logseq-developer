@@ -21,7 +21,7 @@
   :block/updated-at 1667795215429}
  {:block/name "2022-11-09",
   :block/created-at 1667924165966,
-  :block/updated-at 1667924165966}
+  :block/updated-at 1668000324631}
  {:block/name "a",
   :block/created-at 1661538426559,
   :block/updated-at 1661538426559}
@@ -145,6 +145,9 @@
  {:block/name "maximilian schwarzmiiller",
   :block/created-at 1665895918531,
   :block/updated-at 1665895918531}
+ {:block/name "myself",
+  :block/created-at 1668000324628,
+  :block/updated-at 1668000324628}
  {:block/name "next",
   :block/created-at 1667791510240,
   :block/updated-at 1667791510240}
