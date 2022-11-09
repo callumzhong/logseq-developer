@@ -1,8 +1,6 @@
 - Hi，我是 Callum 是一位 Frontend Developer
 	- 部落格 [ Callum 's Blog](https://callumzhong.github.io/)
 	- 程式 [Callum's Github](https://github.com/callumzhong)
-	- Youtube [Callum's Youtbe](https://www.youtube.com/channel/UCO-o9tu621yfNT9ihKgLvOA)
-	  id:: 634c8bc3-c840-4c33-b971-95acb86fcbf5
 	- Resume [Callum's Resume](https://www.cakeresume.com/s--7PeKmZMhaIiPRa_DuZ1wNQ--/callum-zhong)
 -
 - 當前位置是 Callum's Note
