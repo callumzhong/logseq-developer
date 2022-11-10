@@ -1,7 +1,6 @@
 - Hi，我是 Callum 是一位 Frontend Developer
 	- 部落格 [ Callum 's Blog](https://callumzhong.github.io/)
 	- 程式 [Callum's Github](https://github.com/callumzhong)
-	- Resume [Callum's Resume](https://www.cakeresume.com/s--7PeKmZMhaIiPRa_DuZ1wNQ--/callum-zhong)
 -
 - 當前位置是 Callum's Note
 	- 有問題請在 [Issues](https://github.com/callumzhong/logsea-developer/issues) 提交
