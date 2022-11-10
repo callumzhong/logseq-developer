@@ -116,4 +116,7 @@ title:: Next.js & React - The Complete Guide (incl. Two Paths)
 - Secton 4 : Project Time: Working with File-based Routing
 	- [callumzhong/nextjs-course-code-practice at e9bcae3ac35d06b6c607fca9a0c25116c17ac4a4 (github.com)](https://github.com/callumzhong/nextjs-course-code-practice/tree/e9bcae3ac35d06b6c607fca9a0c25116c17ac4a4)
 - Section 5 : Page Pre-Rendering & Data Fetching
-	-
+	- ```js
+	  export async function getStaticProps(context){...}
+	  ```
+	  >由伺服器端運行的 function, 不會在客戶端 JavaScript 看到函式邏輯
