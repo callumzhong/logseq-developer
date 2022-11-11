@@ -119,14 +119,30 @@ title:: Next.js & React - The Complete Guide (incl. Two Paths)
 	- ```js
 	  export async function getStaticProps(context){...}
 	  ```
-	  >由伺服器端運行的 function, 不會在客戶端 JavaScript 看到函式邏輯
+	  >
 	- ```js
 	  // pages/index.js
 	  
+	  export default function Home({ posts }) {
+	    return (
+	      <ul className={styles.container}>
+	        {posts.map((post) => (
+	          <li key={post.id}>{post.title}</li>
+	        ))}
+	      </ul>
+	    );
+	  }
+	  
 	  export async function getStaticProps(context) {
-	    
+	    const response = await fetch(
+	      'https://jsonplaceholder.typicode.com/posts',
+	    );
+	    const posts = await response.json();
 	    return {
-	      props: {}, // 由 Pages Component props 接收
-	    }
+	      props: {
+	        posts,
+	      },
+	    };
 	  }
 	  ```
+	  > getStaticProps  運行於 server , 絕不會在客戶端運行，可避免機密資料
