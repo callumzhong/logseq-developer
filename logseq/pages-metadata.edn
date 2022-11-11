@@ -159,7 +159,16 @@
   :block/updated-at 1667791510240}
  {:block/name "next.js & react - the complete guide (incl. two paths)",
   :block/created-at 1667731028647,
-  :block/updated-at 1668166062413}
+  :block/updated-at 1668166437419}
+ {:block/name "next/basic",
+  :block/created-at 1668166366253,
+  :block/updated-at 1668166366253}
+ {:block/name "next/basic/data-fetching",
+  :block/created-at 1668166380448,
+  :block/updated-at 1668166380448}
+ {:block/name "next/page",
+  :block/created-at 1668166304664,
+  :block/updated-at 1668166304664}
  {:block/name "next/routing",
   :block/created-at 1667791537647,
   :block/updated-at 1667791537647}
