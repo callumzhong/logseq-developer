@@ -117,10 +117,6 @@ title:: Next.js & React - The Complete Guide (incl. Two Paths)
 	- [callumzhong/nextjs-course-code-practice at e9bcae3ac35d06b6c607fca9a0c25116c17ac4a4 (github.com)](https://github.com/callumzhong/nextjs-course-code-practice/tree/e9bcae3ac35d06b6c607fca9a0c25116c17ac4a4)
 - Section 5 : Page Pre-Rendering & Data Fetching
 	- ```js
-	  export async function getStaticProps(context){...}
-	  ```
-	  >
-	- ```js
 	  // pages/index.js
 	  
 	  export default function Home({ posts }) {
@@ -145,4 +141,8 @@ title:: Next.js & React - The Complete Guide (incl. Two Paths)
 	    };
 	  }
 	  ```
-	  > getStaticProps  運行於 server , 絕不會在客戶端運行，可避免機密資料
+	  > getStaticProps  運行於 server , 絕不會在客戶端運行。
+	  [Data Fetching: getStaticProps | Next.js (nextjs.org)](https://nextjs.org/docs/basic-features/data-fetching/get-static-props)
+	  #next/basic/data-fetching
+	-
+-
