@@ -1,4 +1,6 @@
-- Hi，我是 Callum 是一位 Frontend Developer
+- >
+-
+- Hi，我是 Callum
 	- 部落格 [ Callum 's Blog](https://callumzhong.github.io/)
 	- 程式 [Callum's Github](https://github.com/callumzhong)
 -
