@@ -120,3 +120,13 @@ title:: Next.js & React - The Complete Guide (incl. Two Paths)
 	  export async function getStaticProps(context){...}
 	  ```
 	  >由伺服器端運行的 function, 不會在客戶端 JavaScript 看到函式邏輯
+	- ```js
+	  // pages/index.js
+	  
+	  export async function getStaticProps(context) {
+	    
+	    return {
+	      props: {}, // 由 Pages Component props 接收
+	    }
+	  }
+	  ```
