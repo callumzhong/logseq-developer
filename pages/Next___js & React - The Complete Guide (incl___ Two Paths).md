@@ -116,7 +116,7 @@ title:: Next.js & React - The Complete Guide (incl. Two Paths)
 - Secton 4 : Project Time: Working with File-based Routing
 	- [callumzhong/nextjs-course-code-practice at e9bcae3ac35d06b6c607fca9a0c25116c17ac4a4 (github.com)](https://github.com/callumzhong/nextjs-course-code-practice/tree/e9bcae3ac35d06b6c607fca9a0c25116c17ac4a4)
 - Section 5 : Page Pre-Rendering & Data Fetching
-	- ```js
+	- ```jsx
 	  // pages/index.js
 	  
 	  export default function Home({ posts }) {
@@ -144,5 +144,36 @@ title:: Next.js & React - The Complete Guide (incl. Two Paths)
 	  > getStaticProps  運行於 server , 絕不會在客戶端運行。
 	  [Data Fetching: getStaticProps | Next.js (nextjs.org)](https://nextjs.org/docs/basic-features/data-fetching/get-static-props)
 	  #next/basic/data-fetching
-	-
+	- ```jsx
+	  import fs from 'fs/promises';
+	  import path from 'path';
+	  
+	  export default function Home({ products }) {
+	    return (
+	      <ul>
+	        {products.map((product) => (
+	          <li key={product.id}>{product.title}</li>
+	        ))}
+	      </ul>
+	    );
+	  }
+	  
+	  export async function getStaticProps(context) {
+	    const filePath = path.join(
+	      process.cwd(), // 返回 Node.js 執行的工作目錄
+	      'data',
+	      'dummy-backend.json',
+	    );
+	    const jsonData = await fs.readFile(filePath);
+	    const data = JSON.parse(jsonData);
+	    return {
+	      props: {
+	        products: data.products,
+	      },
+	    };
+	  }
+	  ```
+	  > getStaticProps  運行於 server , 也就是 Node.js 擁有 file-system
+	  [Data Fetching: getStaticProps | Next.js (nextjs.org)](https://nextjs.org/docs/basic-features/data-fetching/get-static-props)
+	  #next/basic/data-fetching
 -
