@@ -170,6 +170,7 @@ title:: Next.js & React - The Complete Guide (incl. Two Paths)
 	      props: {
 	        products: data.products,
 	      },
+	      revalidate: 10, // 控制頁面重新生成的參數 (單位：秒)
 	    };
 	  }
 	  ```
