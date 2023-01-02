@@ -183,7 +183,6 @@ Source Code: https://github.com/academind/react-complete-guide-code
 		  ```
 		- React 負責生成、運行實際 DOM 指令更新畫面上的內容
 	- Building a First Custom Component #react/ui/component
-	  collapsed:: true
 		- React Component 返回一個被 render 在頁面的 React element
 		  id:: 634b89ff-6ccb-41db-ab9a-145620ebc869
 		- ```js
@@ -211,7 +210,6 @@ Source Code: https://github.com/academind/react-complete-guide-code
 			- 小寫開頭是原生 XML
 			- 大寫開頭是自定義的 React Component
 	- Writing More Complex JSX Code #react/ui/jsx
-	  collapsed:: true
 		- JSX 語法透過 Babel 編譯後會等於 React.createElement() 語法
 		- ```js
 		    React.createElement(
@@ -221,10 +219,9 @@ Source Code: https://github.com/academind/react-complete-guide-code
 		    )
 		  ```
 		- type 參數可接受類型
-		  collapsed:: true
 			- HTML tag 字串 (例如: "div", "span")
 			- React Component
-			- React Fragment type #react/ui/fragments
+			- React Fragment type `<> </>`
 		- ```js
 		  // 正確 Type 參數 (使用 Fragment)
 		  function ExpenseItem() {
