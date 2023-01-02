@@ -21,6 +21,7 @@ Source Code: https://github.com/academind/react-complete-guide-code
 	- Refreshing Array Functions #javascript/syntax/function
 		- map 運用
 - Section 3 : React Basics & Working With Components
+  collapsed:: true
 	- What Are Component? And Why Is React All About Them? #react/introduction
 	  collapsed:: true
 		- Rea ct 用於構建使用者介面，以 UI 設計來說通常具有數個相同結構的視覺模型，需要進行分解撰寫可重複使用的代碼，名稱為 Component。
@@ -183,6 +184,7 @@ Source Code: https://github.com/academind/react-complete-guide-code
 		  ```
 		- React 負責生成、運行實際 DOM 指令更新畫面上的內容
 	- Building a First Custom Component #react/ui/component
+	  collapsed:: true
 		- React Component 返回一個被 render 在頁面的 React element
 		  id:: 634b89ff-6ccb-41db-ab9a-145620ebc869
 		- ```js
@@ -210,6 +212,7 @@ Source Code: https://github.com/academind/react-complete-guide-code
 			- 小寫開頭是原生 XML
 			- 大寫開頭是自定義的 React Component
 	- Writing More Complex JSX Code #react/ui/jsx
+	  collapsed:: true
 		- JSX 語法透過 Babel 編譯後會等於 React.createElement() 語法
 		- ```js
 		    React.createElement(
@@ -219,6 +222,7 @@ Source Code: https://github.com/academind/react-complete-guide-code
 		    )
 		  ```
 		- type 參數可接受類型
+		  collapsed:: true
 			- HTML tag 字串 (例如: "div", "span")
 			- React Component
 			- React Fragment type `<> </>`
@@ -325,6 +329,7 @@ Source Code: https://github.com/academind/react-complete-guide-code
 		  setState(state=>state+1)
 		  ```
 	- Understanding "Keys" #react/ui/keys
+	  collapsed:: true
 		- 渲染 List 會有多個 React element 
 		  id:: 634e6862-e77d-4103-8618-b76a8cc307b0
 		- 需要 key 幫助 React 辨識項目是否改變、增加、刪除
