@@ -145,10 +145,10 @@
  {:block/name "javascript",
   :block/created-at 1665782008833,
   :block/updated-at 1665961186903}
- {:block/name "javascript-cheatsheets",
+ {:block/name "cheatsheets",
   :block/created-at 1667462100270,
   :block/updated-at 1667462100270}
- {:block/name "javascript-cheatsheets/settimeout",
+ {:block/name "cheatsheets/settimeout",
   :block/created-at 1667462118192,
   :block/updated-at 1667551873550}
  {:block/name "javascript/class",
@@ -293,13 +293,13 @@
  {:block/name "typescript/types/function",
   :block/created-at 1666422212987,
   :block/updated-at 1666422212987}
- {:block/name "ui-cheatsheets",
+ {:block/name "cheatsheets",
   :block/created-at 1667461126350,
   :block/updated-at 1667461244307}
- {:block/name "ui-cheatsheets/react",
+ {:block/name "cheatsheets/react",
   :block/created-at 1667461220575,
   :block/updated-at 1667461220575}
- {:block/name "ui-cheatsheets/react/navbar",
+ {:block/name "cheatsheets/react/navbar",
   :block/created-at 1667461220560,
   :block/updated-at 1667461220560}
  {:block/name "understanding typescript - 2022 edition",
